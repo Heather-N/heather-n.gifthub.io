@@ -1,5 +1,10 @@
+body {
+    text-align:center;
+    margin:0 auto;
+}
 header, footer {
-    background-color:indianred;
+    background-color:lavender;
+    background-size:50%;
     border:none;
     border-radius:5px;
 }
