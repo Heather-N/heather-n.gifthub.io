@@ -3,8 +3,12 @@ body {
     margin:0 auto;
 }
 header, footer {
+    max-width:50%;
     background-color:lavender;
-    background-size:50%;
+    background-size:;
     border:none;
     border-radius:5px;
+}
+ul {
+    align:center;
 }
