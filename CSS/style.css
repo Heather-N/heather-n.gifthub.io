@@ -1,11 +1,9 @@
 body {
     text-align:center;
-    margin:3rem auto;
-    padding:1rem;
+    margin:0 auto;
 }
 header, footer {
     background-color:lavender;
     border:none;
     border-radius:5px;
-
 }
