@@ -5,5 +5,6 @@ body {
 header, footer {
     background-color:lavender;
     border:none;
-    border-radius:5px;
+    border-radius:7px;
+    margin:3em auto;
 }
