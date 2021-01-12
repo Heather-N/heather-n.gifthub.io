@@ -18,6 +18,13 @@ header {
     grid-row-start:1;
     grid-row-end:2;
 }
+main {
+    margin:0 auto;
+    grid-column-start:2;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:5;
+}
 footer {
     background-color:lavender;
     border:none;
