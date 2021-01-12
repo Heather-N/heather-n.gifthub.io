@@ -5,13 +5,25 @@ body {
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
-header, footer {
+header {
     background-color:lavender;
     border:none;
     border-radius:7px;
     margin:3em auto;
     grid-column-start:2;
     grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+footer {
+    background-color:lavender;
+    border:none;
+    border-radius:7px;
+    margin:3em auto;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:5;
+    grid-row-end:6;
 }
 header, h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
