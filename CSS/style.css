@@ -12,6 +12,7 @@ header {
     border:none;
     border-radius:10px;
     margin:3em auto;
+    padding:0 8em 0 8em;
     grid-column-start:2;
     grid-column-end:5;
     grid-row-start:1;
@@ -22,7 +23,7 @@ footer {
     border:none;
     border-radius:10px;
     margin:0 auto;
-    padding:0 100% 0 100%;
+    padding:0 3em 0 3em;
     grid-column-start:2;
     grid-column-end:5;
     grid-row-start:5;
