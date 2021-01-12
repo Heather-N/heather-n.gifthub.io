@@ -9,12 +9,10 @@ header, footer {
     border:none;
     border-radius:7px;
     margin:3em auto;
+    grid-column-start:2;
+    grid-column-end:4;
 }
 ul {
     list-style-position:inside;
 }
 
-.headfoot {
-    grid-column-start:2;
-    grid-column-end:4;
-}
