@@ -1,4 +1,5 @@
 body {
+    font-family: 'Lato', sans-serif;
     text-align:center;
     margin:0 auto;
     display:grid;
@@ -11,6 +12,9 @@ header, footer {
     margin:3em auto;
     grid-column-start:2;
     grid-column-end:4;
+}
+header, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
 }
 ul {
     list-style-position:inside;
