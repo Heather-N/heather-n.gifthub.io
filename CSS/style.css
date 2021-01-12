@@ -22,6 +22,7 @@ footer {
     border:none;
     border-radius:7px;
     margin:3em auto;
+    padding:3em 0 3em 0;
     grid-column-start:2;
     grid-column-end:4;
     grid-row-start:5;
