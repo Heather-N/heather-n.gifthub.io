@@ -5,7 +5,7 @@ body {
     text-align:center;
     margin:0 auto;
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
 header {
     background-color:lavender;
@@ -13,7 +13,7 @@ header {
     border-radius:7px;
     margin:3em auto;
     grid-column-start:2;
-    grid-column-end:4;
+    grid-column-end:5;
     grid-row-start:1;
     grid-row-end:2;
 }
@@ -22,9 +22,9 @@ footer {
     border:none;
     border-radius:7px;
     margin:3em auto;
-    padding:3em 0 3em 0;
+    padding:0 2em 0 2em;
     grid-column-start:2;
-    grid-column-end:4;
+    grid-column-end:5;
     grid-row-start:5;
     grid-row-end:6;
 }
