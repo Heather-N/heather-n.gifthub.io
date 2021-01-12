@@ -1,6 +1,8 @@
 body {
     text-align:center;
     margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
 }
 header, footer {
     background-color:lavender;
@@ -10,4 +12,9 @@ header, footer {
 }
 ul {
     list-style-position:inside;
+}
+
+.headfoot {
+    grid-column-start:2;
+    grid-column-end:4;
 }
