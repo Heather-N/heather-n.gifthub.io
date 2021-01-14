@@ -26,7 +26,10 @@ main {
     grid-row-end:5;
     text-align:left;
 }
-
+#profilePic {
+    grid-column-start:4;
+    grid-column-end:5;
+}
 footer {
     background-color:lavender;
     border:none;
