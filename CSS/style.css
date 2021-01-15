@@ -18,6 +18,9 @@ header {
     grid-row-end:2;
     text-align:center;
 }
+header img {
+    float:right;
+}
 main {
     margin:0 auto;
     grid-column-start:2;
@@ -25,11 +28,6 @@ main {
     grid-row-start:2;
     grid-row-end:5;
     text-align:left;
-}
-#profilePic {
-    grid-column-start:4;
-    grid-column-end:5;
-    float:right;
 }
 footer {
     background-color:lavender;
