@@ -7,9 +7,7 @@ body {
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
 header {
-    background-color:lavender;
-    border:none;
-    border-radius:10px;
+    
     margin:3em auto;
     padding:0 8em 0 8em;
     grid-column-start:2;
@@ -17,6 +15,9 @@ header {
     grid-row-start:1;
     grid-row-end:2;
     text-align:center;
+    background-color:lavender;
+    border:none;
+    border-radius:10px;
 }
 #profilePic {
     float:right;
