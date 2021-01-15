@@ -29,7 +29,7 @@ main {
 #profilePic {
     grid-column-start:4;
     grid-column-end:5;
-    justify-self:end;
+    float:right;
 }
 footer {
     background-color:lavender;
