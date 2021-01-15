@@ -3,17 +3,9 @@
 body {
     font-family: 'Lato', sans-serif;
     margin:0 auto;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    max-width:700px;
 }
 header {
-    
-    margin:3em auto;
-    padding:0 8em 0 8em;
-    grid-column-start:2;
-    grid-column-end:5;
-    grid-row-start:1;
-    grid-row-end:2;
     text-align:center;
     background-color:lavender;
     border:none;
@@ -23,11 +15,6 @@ header {
     float:right;
 }
 main {
-    margin:0 auto;
-    grid-column-start:2;
-    grid-column-end:5;
-    grid-row-start:2;
-    grid-row-end:5;
     text-align:left;
 }
 footer {
@@ -35,11 +22,6 @@ footer {
     border:none;
     border-radius:10px;
     margin:0 auto;
-    padding:0 3em 0 3em;
-    grid-column-start:2;
-    grid-column-end:5;
-    grid-row-start:5;
-    grid-row-end:6;
     text-align:center;
 }
 header, h1, h2, h3, h4, h5, h6 {
