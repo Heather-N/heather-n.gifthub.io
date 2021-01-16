@@ -2,8 +2,10 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    margin:0 auto;
     max-width:960px;
+}
+.body {
+    margin:0 auto;
 }
 header {
     text-align:center;
