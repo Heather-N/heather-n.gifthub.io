@@ -20,11 +20,11 @@ header, h1, h2, h3, h4, h5, h6 {
 main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-gap:7px;
+    grid-gap:10px;
     margin:5px 0 5px 0;
 }
 main section {
-    background-color:lavender;
+    background-color:plum;
     border:3px;
     border-color:purple;
     border-radius:10px;
@@ -32,19 +32,19 @@ main section {
     padding:5px 5px 5px 5px;
 }
 section h2 {
-    background-color:plum;
+    background-color:lavender;
     text-align:center;
-    padding:5px 0 5px 0;
+    padding:10px 0;
 }
 img {
     width:250px;
 }
-section img {
-    justify-self:center;
-}
 
 #pandora {
     grid-column:1 / 2;
+}
+#pandora img {
+    justify-self:center;
 }
 #byu {
     grid-column:2 / 3;
