@@ -22,7 +22,6 @@ main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:7px;
-    justify-items:center;
     margin:5px 0 5px 0;
 }
 main section {
@@ -30,6 +29,7 @@ main section {
     border:2px;
     border-radius:10px;
     box-shadow:0 0 5px grey;
+    justify-items:center;
 }
 section h3 {
     background-color:purple;
