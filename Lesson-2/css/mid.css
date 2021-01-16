@@ -30,14 +30,14 @@ main section {
     border-color:purple;
     border-radius:10px;
     box-shadow:0 0 5px grey;
-    justify-items:center;
 }
 section h2 {
     background-color:purple;
     color:white;
+    text-align:center;
 }
 img {
-    width:200px;
+    width:250px;
 }
 
 #pandora {
