@@ -21,6 +21,12 @@ header, h1, h2, h3, h4, h5, h6 {
 main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    grid-gap:7px;
+    border:1px;
+    box-shadow:0 0 5px grey;
+}
+main section {
+    background-color:lavender;
 }
 img {
     width:200px;
