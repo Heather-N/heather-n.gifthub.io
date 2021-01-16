@@ -12,7 +12,6 @@ header, footer {
     background-color:lavender;
     border:none;
     border-radius:10px;
-    padding:10px 0;
 }
 header, h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
@@ -40,16 +39,16 @@ section h2 {
 img {
     width:250px;
 }
+section img {
+    justify-self:center;
+}
 
 #pandora {
-    grid-column-start:1;
-    grid-column-end:2;
+    grid-column:1 / 2;
 }
 #byu {
-    grid-column-start:2;
-    grid-column-end:3;
+    grid-column:2 / 3;
 }
 #patreon {
-    grid-column-start:3;
-    grid-column-end:4;
+    grid-column:3 / 4;
 }
