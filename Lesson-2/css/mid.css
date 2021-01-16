@@ -26,13 +26,15 @@ main {
 }
 main section {
     background-color:lavender;
-    border:2px;
+    border:3px;
+    border-color:purple;
     border-radius:10px;
     box-shadow:0 0 5px grey;
     justify-items:center;
 }
 section h3 {
     background-color:purple;
+    color:white;
 }
 img {
     width:200px;
