@@ -10,7 +10,7 @@ header {
     background-color:lavender;
     border:none;
     border-radius:10px;
-    padding:0 0 5px 0;
+    padding:5px 0 5px 0;
 }
 #profilePic {
     float:right;
@@ -23,6 +23,7 @@ footer {
     border:none;
     border-radius:10px;
     text-align:center;
+    padding:5px 0 5px 0;
 }
 header, h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
