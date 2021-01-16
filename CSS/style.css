@@ -3,13 +3,14 @@
 body {
     font-family: 'Lato', sans-serif;
     margin:auto;
-    max-width:700px;
+    max-width:960px;
 }
 header {
     text-align:center;
     background-color:lavender;
     border:none;
     border-radius:10px;
+    padding:0 0 5px 0;
 }
 #profilePic {
     float:right;
@@ -21,7 +22,6 @@ footer {
     background-color:lavender;
     border:none;
     border-radius:10px;
-    margin:auto;
     text-align:center;
 }
 header, h1, h2, h3, h4, h5, h6 {
