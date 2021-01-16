@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+
 body {
+    font-family: 'Lato', sans-serif;
     max-width:960px;
 }
 .body {
@@ -10,6 +13,9 @@ header, footer {
     border:none;
     border-radius:10px;
     padding:5px 0 5px 0;
+}
+header, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
 }
 
 main {
