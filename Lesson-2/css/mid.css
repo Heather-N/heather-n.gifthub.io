@@ -22,11 +22,17 @@ main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:7px;
-    border:1px;
-    box-shadow:0 0 5px grey;
+    justify-items:center;
+    margin:5px 0 5px 0;
 }
 main section {
     background-color:lavender;
+    border:2px;
+    border-radius:10px;
+    box-shadow:0 0 5px grey;
+}
+section h3 {
+    background-color:purple;
 }
 img {
     width:200px;
