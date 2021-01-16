@@ -23,21 +23,26 @@ main {
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:10px;
     margin:5px 0 5px 0;
+    justify-items:center;
 }
 main section {
-    background-color:#BFEFFF50;
+    background-color:azure;
     border-color:darkblue;
     border-radius:10px;
     box-shadow:0 0 5px grey;
     padding:0 5px 5px 5px;
 }
-section h2 {
-    background-color:#ff999965;
+section h2, h4 {
     text-align:center;
     padding:10px 0;
 }
 img {
-    width:313px;
+    width:300px;
+}
+section p {
+    color:grey;
+    text-align:justify;
+    padding:5px;
 }
 
 #pandora {
