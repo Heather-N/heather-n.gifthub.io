@@ -42,16 +42,3 @@ section p {
     text-align:justify;
     padding:5px;
 }
-
-#pandora {
-    grid-column:1 / 2;
-}
-#pandora img {
-    justify-self:center;
-}
-#byu {
-    grid-column:2 / 3;
-}
-#patreon {
-    grid-column:3 / 4;
-}
