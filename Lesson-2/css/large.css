@@ -1,0 +1,15 @@
+@media only screen and (mid-width:60em) {
+    main {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    #pandora {
+        grid-column:1 / 2;
+    }
+    #byu {
+        grid-column:2 / 3;
+    }
+    #patreon {
+        grid-column:3 / 4;
+    }
+}

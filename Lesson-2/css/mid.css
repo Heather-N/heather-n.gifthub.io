@@ -2,7 +2,9 @@
     main {
         grid-template-columns:1fr 1fr;
     }
-    
+    main section {
+        border-radius:10px;
+    }
     header, footer {
         border-radius:10px;
     }
