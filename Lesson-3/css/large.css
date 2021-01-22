@@ -4,16 +4,20 @@
 
 body {
     max-width:960px;
+    margin:auto;
 }
 header {
     display:flex;
     background-color:grey;
+    justify-content:center;
 } 
 header img {
-    max-width:50%;
+    max-width:10%;
 }
 nav {
+    display:flex;
     background-color:#26a6d1;
+    justify-content:flex-start;
 }
 nav ul {
     list-style-type:none;
