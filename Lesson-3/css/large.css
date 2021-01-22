@@ -4,6 +4,6 @@ body {
 header {
     background-color:grey;
 }
-header nav ul {
+nav ul {
     list-style-type:none;
 }
