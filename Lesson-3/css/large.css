@@ -8,18 +8,16 @@ body {
 }
 header {
     display:flex;
-    background-color:grey;
-    justify-content:center;
+    background-color:#26a6d1;
+    justify-content:flex-start;
+    flex-wrap:wrap;
 } 
 header img {
     max-width:10%;
 }
-nav {
-    display:flex;
-    background-color:#26a6d1;
-    justify-content:flex-start;
-}
 nav ul {
     list-style-type:none;
+    margin: 0;
+    padding:0;
 }
 
