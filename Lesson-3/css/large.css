@@ -2,6 +2,7 @@ body {
     max-width:960px;
 }
 header {
+    display:flex;
     background-color:grey;
 } 
 nav ul {
