@@ -1,3 +1,7 @@
+/* darker blue: #26a6d1; medium blue: #75cbe8; light blue: #c4f0ff
+ * yellow: #ffec5f
+ * light red: #e67478; red: #d51920; dark red: #ab141a */
+
 body {
     max-width:960px;
 }
@@ -6,7 +10,10 @@ header {
     background-color:grey;
 } 
 header img {
-    width:50%;
+    max-width:50%;
+}
+nav {
+    background-color:#26a6d1;
 }
 nav ul {
     list-style-type:none;
