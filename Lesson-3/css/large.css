@@ -1,0 +1,9 @@
+body {
+    max-width:960px;
+}
+header {
+    background-color:grey;
+}
+header nav ul {
+    list-style-type:none;
+}
