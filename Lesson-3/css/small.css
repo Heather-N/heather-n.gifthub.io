@@ -49,17 +49,16 @@ footer {
 
 #light-blue {
     background-color:#c4f0ff;
-    border:5px solid black;
+    border:2px solid black;
     border-radius:5px;
-    max-width:25%;
 }
 #medium-blue {
     background-color:#15109A;
-    border:5px solid black;
+    border:2px solid black;
     border-radius:5px;
 }
 #dark-blue {
     background-color:#120E76;
-    border:5px solid black;
+    border:2px solid black;
     border-radius:5px;
 }

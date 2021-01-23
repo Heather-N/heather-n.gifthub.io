@@ -8,4 +8,14 @@
     main p {
         width:75%;
     }
+
+    #light-blue {
+        max-width:25%;
+    }
+    #medium-blue {
+        max-width:25%;
+    }
+    #dark-blue {
+        max-width:25%;
+    }
 }
