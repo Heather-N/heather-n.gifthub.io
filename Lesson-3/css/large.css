@@ -8,16 +8,22 @@ body {
 }
 header {
     display:flex;
+    justify-content:center;
+  }
+  nav {
+    display:flex;
     background-color:#26a6d1;
-    justify-content:flex-start;
-    flex-wrap:wrap;
-} 
-header img {
-    max-width:10%;
-}
-nav ul {
-    list-style-type:none;
-    margin: 0;
-    padding:0;
-}
-
+    justify-content:space-around;
+  }
+  nav a {
+    text-decoration:none;
+    padding:15px;
+    color:#c4f0ff;
+    font-size:20px;
+    width:100%;
+    text-align:center;
+  }
+  nav a:hover{
+    background-color:#c4f0ff;
+    color:#ab141a;
+  }
