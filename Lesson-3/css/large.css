@@ -33,6 +33,9 @@ nav a:hover{
     background-color:#c4f0ff;
     color:#120E76;
 }
+main {
+    padding:5px 20px;
+}
 main p {
     width:75%;
     text-align:justify;
