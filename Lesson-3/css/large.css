@@ -1,16 +1,14 @@
-/* darker blue: #26a6d1; medium blue: #75cbe8; light blue: #c4f0ff
- * yellow: #ffec5f
- * light red: #e67478; red: #d51920; dark red: #ab141a */
+/* light blue: #c4f0ff dark blue: #15109A */
 
 body {
     max-width:960px;
     margin:auto;
-    background-color:#c4f0ff;
+    background-color:#c4f0ff60;
 }
 header {
     display:flex;
     justify-content:center;
-    background-color:#26a6d1;
+    background-color:#15109A;
     color:#c4f0ff;
   }
 header img {
@@ -19,7 +17,7 @@ header img {
 
 nav {
     display:flex;
-    background-color:#26a6d1;
+    background-color:#15109A;
     justify-content:space-around;
 }
 nav a {
