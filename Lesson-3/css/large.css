@@ -2,4 +2,10 @@
     nav {
         flex-wrap:nowrap;
     }
+    nav a {
+        width:100%;
+    }
+    main p {
+        width:75%;
+    }
 }
