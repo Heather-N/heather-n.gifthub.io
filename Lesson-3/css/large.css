@@ -11,6 +11,7 @@ header {
     justify-content:center;
     background-color:#15109A;
     color:#c4f0ff;
+    padding:10px;
   }
 header img {
     max-width:10%;
@@ -40,4 +41,5 @@ footer {
     text-align:center;
     background-color:#15109A;
     color:#c4f0ff;
+    padding:10px;
 }

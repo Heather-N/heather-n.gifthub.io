@@ -1,4 +1,4 @@
 function lastUpdated () {
     let a = document.lastModified;
-    document.write("date").innerHTML = a;
+    document.write("a");
 }
