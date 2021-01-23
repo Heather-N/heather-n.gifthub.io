@@ -6,20 +6,23 @@ body {
     max-width:960px;
     margin:auto;
 }
-  nav {
+nav {
     display:flex;
     background-color:#26a6d1;
     justify-content:space-around;
-  }
-  nav a {
+}
+nav img {
+    max-width:10px;
+}
+nav a {
     text-decoration:none;
     padding:15px;
     color:#c4f0ff;
     font-size:20px;
     width:100%;
     text-align:center;
-  }
-  nav a:hover{
+}
+nav a:hover{
     background-color:#c4f0ff;
     color:#ab141a;
-  }
+}
