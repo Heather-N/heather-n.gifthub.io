@@ -1,0 +1,49 @@
+/* light blue: #c4f0ff dark blue: #15109A darkest blue: #120E76
+ * */
+
+
+body {
+    max-width:960px;
+    margin:auto;
+    background-color:#c4f0ff60;
+}
+header {
+    display:flex;
+    justify-content:center;
+    background-color:#15109A;
+    color:#c4f0ff;
+    padding:10px;
+}
+header img {
+    max-width:10%;
+}
+nav {
+    display:flex;
+    background-color:#120E76;
+    justify-content:space-around;
+}
+nav a {
+    text-decoration:none;
+    padding:15px;
+    color:#c4f0ff;
+    font-size:20px;
+    width:100%;
+    text-align:center;
+}
+nav a:hover{
+    background-color:#c4f0ff;
+    color:#120E76;
+}
+main {
+    padding:5px 20px;
+}
+main p {
+    width:75%;
+    text-align:justify;
+}
+footer {
+    text-align:center;
+    background-color:#15109A;
+    color:#c4f0ff;
+    padding:10px;
+}
