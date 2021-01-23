@@ -51,14 +51,20 @@ footer {
     background-color:#c4f0ff;
     border:2px solid black;
     border-radius:5px;
+    color:black;
+    padding:3px;
 }
 #medium-blue {
     background-color:#15109A;
     border:2px solid black;
     border-radius:5px;
+    color:white;
+    padding:3px;
 }
 #dark-blue {
     background-color:#120E76;
     border:2px solid black;
     border-radius:5px;
+    color:white;
+    padding:3px;
 }
