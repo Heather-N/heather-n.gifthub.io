@@ -52,7 +52,7 @@ footer {
     border:2px solid black;
     border-radius:5px;
     color:#120E76;
-    padding:5px;
+    padding:10px;
     text-align:center;
 }
 #medium-blue {
@@ -60,7 +60,7 @@ footer {
     border:2px solid black;
     border-radius:5px;
     color:#c4f0ff;
-    padding:5px;
+    padding:10px;
     text-align:center;
 }
 #dark-blue {
@@ -68,6 +68,6 @@ footer {
     border:2px solid black;
     border-radius:5px;
     color:#c4f0ff;
-    padding:5px;
+    padding:10px;
     text-align:center;
 }
