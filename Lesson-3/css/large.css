@@ -15,12 +15,10 @@ header {
 header img {
     max-width:10%;
 }
-
 nav {
     display:flex;
     background-color:#120E76;
     justify-content:space-around;
-    flex-wrap:wrap;
 }
 nav a {
     text-decoration:none;
@@ -32,5 +30,9 @@ nav a {
 }
 nav a:hover{
     background-color:#c4f0ff;
-    color:#ab141a;
+    color:#120E76;
+}
+main p {
+    width:75%;
+    text-align:justify;
 }
