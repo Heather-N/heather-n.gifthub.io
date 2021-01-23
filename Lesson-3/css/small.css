@@ -51,20 +51,23 @@ footer {
     background-color:#c4f0ff;
     border:2px solid black;
     border-radius:5px;
-    color:black;
-    padding:3px;
+    color:#120E76;
+    padding:5px;
+    text-align:center;
 }
 #medium-blue {
     background-color:#15109A;
     border:2px solid black;
     border-radius:5px;
-    color:white;
-    padding:3px;
+    color:#c4f0ff;
+    padding:5px;
+    text-align:center;
 }
 #dark-blue {
     background-color:#120E76;
     border:2px solid black;
     border-radius:5px;
-    color:white;
-    padding:3px;
+    color:#c4f0ff;
+    padding:5px;
+    text-align:center;
 }
