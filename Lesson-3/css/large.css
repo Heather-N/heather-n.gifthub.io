@@ -12,13 +12,13 @@ header {
     background-color:#26a6d1;
     color:#c4f0ff;
   }
+header img {
+    max-width:10px;
+}
 nav {
     display:flex;
     background-color:#26a6d1;
     justify-content:space-around;
-}
-nav img {
-    max-width:10px;
 }
 nav a {
     text-decoration:none;
