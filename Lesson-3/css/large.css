@@ -36,3 +36,8 @@ main p {
     width:75%;
     text-align:justify;
 }
+footer {
+    text-align:center;
+    background-color:#15109A;
+    color:#c4f0ff;
+}
