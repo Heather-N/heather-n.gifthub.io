@@ -5,7 +5,7 @@
 body {
     max-width:960px;
     margin:auto;
-    background-color:#ffec5f;
+    background-color:#c4f0ff;
 }
 header {
     display:flex;
@@ -16,9 +16,7 @@ header {
 header img {
     max-width:10%;
 }
-main {
-    background-color:#ffec5f30;
-}
+
 nav {
     display:flex;
     background-color:#26a6d1;
