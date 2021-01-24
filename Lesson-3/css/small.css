@@ -6,6 +6,7 @@ body {
     max-width:960px;
     margin:auto;
     background-color:#c4f0ff60;
+    font-family: 'Noto Sans', sans-serif;
 }
 header {
     display:flex;
@@ -39,6 +40,9 @@ main {
 }
 main p {
     text-align:justify;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka One', cursive;
 }
 footer {
     text-align:center;
