@@ -44,6 +44,9 @@ main p {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fredoka One', cursive;
 }
+ol {
+    text-align:justify;
+}
 footer {
     text-align:center;
     background-color:#15109A;
