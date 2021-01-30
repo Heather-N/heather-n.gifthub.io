@@ -50,6 +50,9 @@ nav ul li a {
     padding:.8rem 2%;
     text-decoration:none;
 }
+nav ul.hide {
+    display:none;
+}
 
 
 .clearfix:after {
