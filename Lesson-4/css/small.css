@@ -59,6 +59,15 @@ nav ul.hide {
 }
 .forecast {
     background-color:#15109A;
+    padding:5px;
+    color:#c4f0ff;
+    text-align:center;
+}
+.five-day-icons {
+    display:none;
+}
+#article-pic {
+    width:75%;
 }
 
 .clearfix:after {
