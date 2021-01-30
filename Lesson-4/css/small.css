@@ -13,6 +13,9 @@ header, footer {
     background-color:#15109A;
     color:#c4f0ff;
 }
+header img {
+    max-width:25%;
+}
 nav {
     background-color:#120E76;
     display:flex;
