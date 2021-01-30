@@ -66,8 +66,18 @@ nav ul.hide {
 .five-day-icons {
     display:none;
 }
+.map {
+    width:80%;
+    display:block;
+    margin:auto;
+}
+.social {
+    display:none;
+}
 #article-pic {
-    width:75%;
+    width:90%;
+    display:block;
+    margin:auto;
 }
 
 .clearfix:after {
