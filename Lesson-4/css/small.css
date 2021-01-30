@@ -18,9 +18,13 @@ header, footer {
 }
 nav {
     background-color:#120E76;
-    display:flex;
-    background-color:#120E76;
-    justify-content:space-around;
+}
+nav button {
+    margin:.2rem 2%;
+    background-color:transparent;
+    border:none;
+    font-size:1.6rem;
+    color:#c4f0ff;
 }
 nav a {
     text-decoration:none;
@@ -32,4 +36,11 @@ nav a {
 nav a:hover{
     background-color:#c4f0ff;
     color:#120E76;
+}
+nav ul {
+    list-style-type:none;
+}
+nav ul li a {
+    display:block;
+    padding:.8rem 2%;
 }
