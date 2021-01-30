@@ -1,4 +1,4 @@
 function toggleMenu() {
-    console.log(document.getElementById("primaryNav").classlist);
-    document.getElementById("primaryNav").classlist.toggle("hide");
+    console.log(document.getElementById("primaryNav").classList);
+    document.getElementById("primaryNav").classList.toggle("hide");
 }
