@@ -54,6 +54,12 @@ nav ul.hide {
     display:none;
 }
 
+.hero-image {
+    width:100%;
+}
+.forecast {
+    background-color:#15109A;
+}
 
 .clearfix:after {
     content:"";
