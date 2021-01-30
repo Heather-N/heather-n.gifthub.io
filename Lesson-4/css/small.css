@@ -13,6 +13,11 @@ header, footer {
     background-color:#15109A;
     color:#c4f0ff;
 }
+header {
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
 #main-icon {
     max-width:25%;
 }
@@ -43,4 +48,12 @@ nav ul {
 nav ul li a {
     display:block;
     padding:.8rem 2%;
+    text-decoration:none;
+}
+
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
 }
