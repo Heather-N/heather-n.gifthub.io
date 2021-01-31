@@ -2,11 +2,17 @@
     nav button {
         display:none;
     }
+    nav ul {
+        margin-left:-4.5%;
+    }
     nav ul li a {
         padding:.6rem 1rem;
+        font-size:1.4em;
     }
     nav ul.hide {
-        display:flex;
-        justify-content:space-around;
+        display:block;
+    }
+    nav ul li {
+        float:left;
     }
 }
