@@ -5,9 +5,13 @@ body {
     margin:auto;
     background-color:#c4f0ff60;
     font-family: 'Noto Sans', sans-serif;
+    padding:10p
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fredoka One', cursive;
+}
+main p, main h1, main h2, main h3, main h4, main h5, main h6 {
+    padding:10px;
 }
 header, footer {
     background-color:#15109A;
@@ -21,6 +25,9 @@ header {
 }
 #main-icon {
     max-width:25%;
+}
+footer {
+    padding:5px 10px;
 }
 nav {
     background-color:#120E76;
