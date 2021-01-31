@@ -22,9 +22,17 @@ header {
     justify-content:center;
     padding:10px;
     flex-wrap:wrap;
+    align-content:center;
+}
+header h1 {
+    font-size:2em;
+    line-height:10px;
+}
+header p {
+    line-height:10px;
 }
 #main-icon {
-    max-width:30%;
+    height:100px;
 }
 footer {
     padding:5px 10px;
