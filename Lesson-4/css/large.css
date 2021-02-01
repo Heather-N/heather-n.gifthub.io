@@ -24,6 +24,9 @@
         float:left;
         background-color:#c4f0ff80;
     }
+    .five-day-icons {
+        display:inline;
+    }
     .map {
         width:50%;
     }
