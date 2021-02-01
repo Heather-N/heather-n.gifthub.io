@@ -22,7 +22,10 @@
         grid-template-rows:40px 1fr;
         border:2px solid black;
         float:left;
-        background-color:#c4f0ff60;
+        background-color:#c4f0ff80;
+    }
+    .map {
+        width:50%;
     }
     
 }
