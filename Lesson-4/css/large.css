@@ -18,7 +18,7 @@
 
     .top {
         display:grid;
-        grid-template-columns:1fr 1fr;
+        grid-template-columns:300px 1fr;
     }
     .hero-image {
         grid-column-start:1;
@@ -44,13 +44,21 @@
     }
     .forecast {
         background-color:transparent;
+        color:black;
+        font-size:1.3em;
+        text-align:left;
     }
     .five-day-icons {
-        display:inline;
+        display:flex;
         background-color:#15109A;
+        justify-content:space-around;
     }
     .weathericon {
         max-width:75px;
+    }
+    .articles {
+        background-color:#15109A;
+        color:#c4f0ff;
     }
     .map {
         width:50%;
