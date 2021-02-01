@@ -16,7 +16,15 @@
         float:left;
     }
 
+    .top {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .hero-image {
+        grid-column:1/3;
+    }
     .weathersum {
+        grid-column:1/2;
         display:grid;
         grid-template-columns:300px;
         grid-template-rows:40px 1fr;
