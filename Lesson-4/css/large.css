@@ -35,6 +35,9 @@
     .five-day-icons {
         display:inline;
     }
+    .weathericon {
+        max-width:50px;
+    }
     .map {
         width:50%;
     }
