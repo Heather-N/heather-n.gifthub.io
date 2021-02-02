@@ -3,10 +3,9 @@
         padding:.8rem 1rem;
     }
     .articles p {
-        display:inline;
+        display:;
     }
     #article-pic {
         max-width:30%;
-        float:right;
     }
 }
