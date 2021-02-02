@@ -61,7 +61,9 @@
         color:#c4f0ff;
     }
     .map {
-        width:30%;
+        width:25%;
+        float:left;
+        padding:10px;
     }
     
 }
