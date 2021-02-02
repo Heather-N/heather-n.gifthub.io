@@ -2,6 +2,9 @@
     nav ul li a {
         padding:.8rem 1rem;
     }
+    .articles p {
+        display:inline;
+    }
     #article-pic {
         max-width:50%;
         float:right;
