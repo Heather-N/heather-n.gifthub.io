@@ -65,5 +65,9 @@
         float:left;
         padding:10px;
     }
+    .social {
+        display:inline;
+        max-width:20px;
+    }
     
 }
