@@ -1,0 +1,73 @@
+@media only screen and (min-width:64rem) {
+    nav button {
+        display:none;
+    }
+    nav ul {
+        margin-left:-4.5%;
+    }
+    nav ul li a {
+        padding:.6rem 1rem;
+        font-size:1.4em;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul li {
+        float:left;
+    }
+
+    .top {
+        display:grid;
+        grid-template-columns:300px 1fr;
+    }
+    .hero-image {
+        grid-column-start:1;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+    .weathersum {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:1;
+        grid-row-end:2;
+        margin:15px 0 15px 15px;
+        display:grid;
+        grid-template-columns:300px;
+        grid-template-rows:40px 1fr;
+        border:2px solid black;
+        float:left;
+        background-color:#c4f0ff80;
+    }
+    .weathersum p {
+        margin-right:5px;
+    }
+    .forecast {
+        background-color:transparent;
+        color:black;
+        font-size:1.3em;
+        text-align:left;
+    }
+    .five-day-icons {
+        display:flex;
+        background-color:#15109A;
+        justify-content:space-around;
+    }
+    .weathericon {
+        max-width:75px;
+    }
+    .articles {
+        background-color:#15109A;
+        color:#c4f0ff;
+    }
+    .map {
+        width:25%;
+        float:left;
+        padding:10px;
+    }
+    .social {
+        display:inline;
+        max-width:20px;
+    }
+    
+}
