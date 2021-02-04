@@ -35,9 +35,7 @@
         padding:.5rem;
         box-shadow:0 0 30px #777;
     }
-    .weathersum p {
-        margin-right:5px;
-    }
+    
     .forecast {
         background-color:transparent;
         color:black;
