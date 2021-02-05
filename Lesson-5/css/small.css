@@ -74,8 +74,11 @@ nav ul.hide {
     display:none;
 }
 table, tr, th {
-    border:1px solid black;
-    margin:0 auto;
+    border:2px solid #c4f0ff;
+    border-collapse:collapse;
+}
+tr {
+    text-align:center;
 }
 
 .active {
