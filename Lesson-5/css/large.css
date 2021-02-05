@@ -16,6 +16,10 @@
         float:left;
     }
 
+    .map {
+        max-width:30%;
+    }
+
     
     
     .forecast {

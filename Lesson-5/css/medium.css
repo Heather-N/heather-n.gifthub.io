@@ -3,8 +3,11 @@
         padding:.8rem 1rem;
     }
     
+    .articles {
+        padding:20px;
+    }
     .map {
-        width:80%;
+        width:40%;
         display:block;
         margin:auto;
     }
