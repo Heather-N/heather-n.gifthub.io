@@ -121,6 +121,11 @@ table, tr, th {
     display:block;
     margin:auto;
 }
+#pancakes {
+    background-color:palegoldenrod;
+    color:firebrick;
+    border:1px solid firebrick;
+}
 
 .clearfix:after {
     content:"";
