@@ -26,13 +26,15 @@
         background-color:transparent;
         color:black;
         font-size:1.3em;
-        text-align:left;
+        text-align:center;
     }
     .forecast-icons {
         background-color:#15109A;
         color:#c4f0ff;
         display:block;
-        margin:0 auto;
+        width:max-content;
+        margin-left:auto;
+        margin-right:auto;
     }
         
     .weathericon {
