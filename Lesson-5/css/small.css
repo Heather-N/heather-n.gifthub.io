@@ -71,6 +71,10 @@ nav ul.hide {
     display:none;
 }
 
+.active {
+    background-color:palegoldenrod;
+    color:palevioletred;
+}
 .top {
     position:relative;
     margin:0 auto;
@@ -89,11 +93,6 @@ nav ul.hide {
     background-color:#c4f0ff90;
     padding:.5rem;
     box-shadow:0 0 30px #777;
-}
-
-.active {
-    background-color:palegoldenrod;
-    color:palevioletred;
 }
 .forecast {
     background-color:#15109A;

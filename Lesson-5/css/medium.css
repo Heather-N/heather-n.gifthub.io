@@ -10,6 +10,8 @@
     }
     #article-pic {
         max-width:30%;
+        margin:1em;
         float:right;
+        box-shadow:0 0 30px #777;
     }
 }
