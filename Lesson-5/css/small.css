@@ -73,6 +73,9 @@ nav ul li a {
 nav ul.hide {
     display:none;
 }
+table, tr, th {
+    border:1px solid black;
+}
 
 .active {
     background-color:palegoldenrod;
