@@ -28,16 +28,10 @@
         font-size:1.3em;
         text-align:left;
     }
-    .day-of-week {
-        display:flex;
+    .forecast-icons {
         background-color:#15109A;
-        justify-content:space-around;
     }
-    .five-day-icons {
-        display:flex;
-        background-color:#15109A;
-        justify-content:space-around;
-    }
+        
     .weathericon {
         max-width:75px;
     }

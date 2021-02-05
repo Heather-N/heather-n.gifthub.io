@@ -103,10 +103,7 @@ nav ul.hide {
     color:#c4f0ff;
     text-align:center;
 }
-.day-of-week {
-    display:none;
-}
-.five-day-icons {
+.forecast-icons {
     display:none;
 }
 .map {
