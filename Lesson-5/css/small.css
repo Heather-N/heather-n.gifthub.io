@@ -91,7 +91,10 @@ nav ul.hide {
     box-shadow:0 0 30px #777;
 }
 
-
+.active {
+    background-color:palegoldenrod;
+    color:palevioletred;
+}
 .forecast {
     background-color:#15109A;
     padding:5px;
