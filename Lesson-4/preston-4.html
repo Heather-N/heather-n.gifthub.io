@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/large.css">
     </head>
 
-    <body>
+    <body onload="currentDate()">
         <header>
             <img src="images/weather-icon.png" alt="weather icon" id="main-icon">
             <section class="heading">
@@ -72,6 +72,8 @@
             <img src="images/placeholder-icon.png" alt="placeholder icon" class="social"/>
             <img src="images/placeholder-icon.png" alt="placeholder icon" class="social"/>
             <img src="images/placeholder-icon.png" alt="placeholder icon" class="social"/>
+
+            <p>&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
         </footer>
         <script src="js/script.js"></script>
     </body>
