@@ -30,6 +30,7 @@
     }
     .forecast-icons {
         background-color:#15109A;
+        display:block;
     }
         
     .weathericon {
