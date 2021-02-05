@@ -3,7 +3,13 @@
         padding:.8rem 1rem;
     }
     
+    .map {
+        width:80%;
+        display:block;
+        margin:auto;
+    }
     #article-pic {
         max-width:30%;
+        float:right;
     }
 }
