@@ -81,6 +81,9 @@ tr {
     text-align:center;
 }
 
+.primaryNav {
+    padding:0;
+}
 .active {
     background-color:palegoldenrod;
     color:firebrick;
