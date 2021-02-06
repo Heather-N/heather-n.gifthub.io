@@ -53,5 +53,8 @@
         display:inline;
         max-width:20px;
     }
+    #article-pic {
+        padding:0 0 10px 0;
+    }
     
 }
