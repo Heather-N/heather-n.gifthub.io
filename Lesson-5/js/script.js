@@ -9,12 +9,13 @@ function currentDate() {
 }
 
 function topBanner() {
-    let dayofWeek = new Date().getDay;
+    var d = new Date();
+    var n = d.getDay();
 
-    if (dayofWeek == 5) {
+    if (n == 5) {
         document.getElementById('pancakes').style.display = "block";
     }
     else {
-        document.getElementById('pancakes').style.display = "none";
+        document.getElementById('pancakes').style.display = 'none';
     }
 }
