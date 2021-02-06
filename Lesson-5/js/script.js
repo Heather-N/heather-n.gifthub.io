@@ -9,8 +9,7 @@ function currentDate() {
 }
 
 function topBanner() {
-    let day = new Date();
-    let dayOfWeek = d.getDay();
+    let dayofWeek = new Date().getDay;
 
     if (dayofWeek == 5) {
         document.getElementById('pancakes').style.display = "block";
