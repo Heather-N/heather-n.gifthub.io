@@ -5,7 +5,6 @@ body {
     margin:auto;
     background-color:#c4f0ff60;
     font-family: 'Noto Sans', sans-serif;
-    padding:10px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fredoka One', cursive;
@@ -134,6 +133,9 @@ tr {
     text-align:center;
     margin-top:5px;
     margin-bottom:5px;
+}
+#primaryNav {
+    padding:0;
 }
 
 .clearfix:after {
