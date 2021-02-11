@@ -6,6 +6,10 @@
     .articles {
         padding:20px;
     }
+    .top {
+        position:relative;
+        height:300px;
+    }
     .weathersum {
         position:absolute;
         top:50px;
