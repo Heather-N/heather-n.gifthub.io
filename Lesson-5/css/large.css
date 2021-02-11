@@ -25,14 +25,7 @@
         font-size:1.3em;
         text-align:center;
     }
-    .forecast-icons {
-        background-color:#15109A;
-        color:#c4f0ff;
-        display:block;
-        width:max-content;
-        margin-left:auto;
-        margin-right:auto;
-    }
+    
         
     .weathericon {
         max-width:75px;
