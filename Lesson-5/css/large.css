@@ -48,7 +48,7 @@
     }
     .social {
         display:inline;
-        max-width:35px;
+        width:35px;
     }
     #article-pic {
         padding:0 0 10px 0;
