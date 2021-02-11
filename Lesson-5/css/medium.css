@@ -6,6 +6,9 @@
     .articles {
         padding:20px;
     }
+    .articles {
+        padding:20px;
+    }
     .top {
         position:relative;
         height:300px;
@@ -15,8 +18,11 @@
         top:50px;
         left:50px;
     }
+    .footer-map {
+        text-align:center;
+    }
     #article-pic {
-        max-width:25%;
+        max-width:45%;
         margin:5px;
         float:right;
         box-shadow:0 0 30px #777;
