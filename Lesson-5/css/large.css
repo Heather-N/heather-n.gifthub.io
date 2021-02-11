@@ -12,12 +12,6 @@
     nav ul li {
         float:left;
     }
-
-    .map {
-        max-width:30%;
-    }
-
-    
     
     .forecast {
         background-color:transparent;
@@ -35,8 +29,14 @@
         color:#c4f0ff;
     }
     .map {
-        float:left;
+        max-width:40%;
         padding:10px;
+    }
+    .footer-map {
+        text-align:left;
+    }
+    .contact {
+        text-align:right;
     }
     .social {
         display:inline;
