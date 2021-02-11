@@ -6,7 +6,11 @@
     .articles {
         padding:20px;
     }
-    
+    .weathersum {
+        position:absolute;
+        top:50px;
+        left:50px;
+    }
     #article-pic {
         max-width:25%;
         margin:5px;

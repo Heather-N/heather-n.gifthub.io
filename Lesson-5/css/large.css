@@ -41,8 +41,10 @@
         background-color:#15109A;
         color:#c4f0ff;
     }
-    .contact {
-        display:inline;
+    .map {
+        width:25%;
+        float:left;
+        padding:10px;
     }
     .social {
         display:inline;
