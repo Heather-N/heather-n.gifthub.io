@@ -119,6 +119,12 @@ tr {
 .weathericon {
     max-width:60px;
 }
+.map {
+    max-width:100%;
+}
+.social {
+    max-width:2.5em;
+}
 #article-pic {
     width:90%;
     display:block;
