@@ -6,11 +6,7 @@
     .articles {
         padding:20px;
     }
-    .map {
-        width:60%;
-        display:block;
-        margin:auto;
-    }
+    
     #article-pic {
         max-width:25%;
         margin:5px;
