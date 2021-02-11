@@ -28,16 +28,22 @@
         background-color:#15109A;
         color:#c4f0ff;
     }
+    footer {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
     .map {
-        max-width:40%;
         padding:10px;
     }
     .footer-map {
-        text-align:left;
+        grid-column-start:1;
+        grid-column-end:2;
     }
     .contact {
-        text-align:right;
+        grid-column-start:2;
+        grid-column-end:3;
     }
+    
     .social {
         display:inline;
         width:35px;
