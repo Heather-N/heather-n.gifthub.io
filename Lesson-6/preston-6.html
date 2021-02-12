@@ -40,7 +40,15 @@
         <main>
             <h2>Preston Idaho</h2>
             <div class="top clearfix">
-                <img src="images/sky-hero-image.jpg" alt="sunshine through the clouds" class="hero-image"/>
+                <img srcset="images/hero-image-small.jpg 529w,
+                            images/hero-image-medium.jpg 959w,
+                            images/hero-image-large.jpg 960w"
+                    sizes="(max-width:529px) 529px,
+                        (max-width:959px) 959px,
+                        960px"
+                    src="images/hero-image-large.jpg"
+                    alt="Sun shining over landscape">
+                <img src="images/hero-image.jpg" alt="sunshine through the clouds" class="hero-image"/>
                 <div class="weathersum">
                     <h4>Weather Summary</h4>
                     <p>Temperature:50°</p>
