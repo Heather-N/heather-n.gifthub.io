@@ -1,0 +1,59 @@
+@media only screen and (min-width:64rem) {
+    nav button {
+        display:none;
+    }
+    nav ul li a {
+        padding:.6rem 1rem;
+        font-size:1.4em;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul li {
+        float:left;
+    }
+    
+    .forecast {
+        background-color:transparent;
+        color:black;
+        font-size:1.3em;
+        text-align:center;
+    }
+    
+        
+    .weathericon {
+        max-width:75px;
+    }
+    .articles {
+        background-color:#15109A;
+        color:#c4f0ff;
+    }
+    footer {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .map {
+        padding:10px;
+    }
+    .footer-map {
+        grid-column-start:1;
+        grid-column-end:2;
+    }
+    .contact {
+        grid-column-start:2;
+        grid-column-end:3;
+    }
+    .footer-bottom {
+        grid-column:1/3;
+        text-align:center;
+    }
+    
+    .social {
+        display:inline;
+        width:35px;
+    }
+    #article-pic {
+        padding:0 0 10px 0;
+    }
+    
+}
