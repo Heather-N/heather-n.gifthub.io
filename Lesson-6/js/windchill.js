@@ -1,6 +1,6 @@
 function windChill(){
-    let t = parseInt(document.getElementById('temp'));
-    let s = parseInt(document.getElementById('windspeed'));
+    let t = parseInt(document.getElementById('temp').innerHTML);
+    let s = parseInt(document.getElementById('windspeed').innerHTML);
     let x = 0.6215 * t;
     let y = Math.pow(s, 0.16);
     let z = 0.4275 * t;
