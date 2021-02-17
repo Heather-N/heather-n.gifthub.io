@@ -1,5 +1,7 @@
 body {
     max-width:1200px;
+}
+#body {
     margin:auto;
 }
 img {
