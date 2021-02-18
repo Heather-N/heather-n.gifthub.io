@@ -1,0 +1,26 @@
+@media only screen and (min-width:32.5em) {
+    nav ul li a {
+        padding:.8rem 1rem;
+    }
+    
+    .articles {
+        padding:20px;
+    }
+    .top {
+        position:relative;
+        height:300px;
+    }
+    .weathersum {
+        position:absolute;
+        top:50px;
+        left:50px;
+    }
+    .footer-map {
+        text-align:center;
+    }
+    .article-pic {
+        margin:5px;
+        float:right;
+        box-shadow:0 0 30px #777;
+    }
+}
