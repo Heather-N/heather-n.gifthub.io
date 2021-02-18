@@ -1,4 +1,4 @@
-//using code from Brother Blazzard's week 7 virtual lab
+//using code from Brother Blazzard's week 7 virtual lab to help with understanding
 
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 //list of items (images with a data-source attribute)
