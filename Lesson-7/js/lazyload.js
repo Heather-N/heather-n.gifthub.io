@@ -10,11 +10,6 @@ const loadImages = (image) => {
     };
 };
 
-const imgOptions = {
-    threshold:0,
-    rootMargin: '0px, 0px, 50px, 0px'
-};
-
 if ('IntersectionObserver' in window) {
     //if it's supported
     const imgObserver = new IntersectionObserver((items) => {
@@ -36,3 +31,8 @@ else { //load all images if not supported
         loadImages(img);
     });
 }
+
+const imgOptions = {
+    threshold:0,
+    rootMargin: '0px, 0px, 50px, 0px'
+};
