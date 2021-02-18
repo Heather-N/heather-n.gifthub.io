@@ -1,6 +1,8 @@
-//using code from MDN web docs
+//using code from Brother Blazzard's week 7 virtual lab
 
-let imagesToLoad = document.querySelectorAll('img[data-src]');
+const imagesToLoad = document.querySelectorAll('img[data-src]');
+//list of items (images with a data-source attribute)
+
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
@@ -8,24 +10,28 @@ const loadImages = (image) => {
     };
 };
 
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-});
+const imgOptions = {
+    rootMargin: '0px, 0px, 50px, 0px',
+    threshold:0
+};
 
 if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
+    //if it's supported
+    const imgObserver = new IntersectionObserver((items) => {
         items.forEach((item) => {
             if (item.isIntersecting) {
                 loadImages(item.target);
-                observer.unobserve(target);
+                imgObserver.unobserve(item.target);
             }
         });
-    });
+    }, imgOptions);
+
+    //load image if necessary
     imagesToLoad.forEach((img) => {
-        observer.observe(img);
+        imgObserver.observe(img);
     });
 }
-else {
+else { //load all images if not supported
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });

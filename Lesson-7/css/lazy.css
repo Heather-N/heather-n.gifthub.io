@@ -1,17 +1,12 @@
 body {
-    max-width:1200px;
-}
-#body {
+    max-width:960px;
     margin:auto;
 }
 img {
     display:block;
-}
-
-picture img[data-src] {
-    filter: blur(0.2em);
-}
-picture img {
     filter:blur(0em);
     transition:filter 0.5s;
+}
+img[data-src] {
+    filter: blur(0.2em);
 }
