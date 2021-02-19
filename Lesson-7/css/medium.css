@@ -1,4 +1,5 @@
 @media only screen and (min-width:32.5em) {
+    /*PRESTON PAGE */
     nav ul li a {
         padding:.8rem 1rem;
     }
@@ -22,5 +23,12 @@
         margin:5px;
         float:right;
         box-shadow:0 0 30px #777;
+    }
+
+
+    /* GALLERY PAGE */
+
+    #weather-pics {
+        grid-template-columns:1fr 1fr;
     }
 }
