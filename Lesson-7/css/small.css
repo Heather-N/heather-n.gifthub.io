@@ -154,6 +154,14 @@ tr {
     grid-template-columns:1fr;
     margin:10px;
 }
+#weather-pics section picture img {
+    display:block;
+    filter:blur(0em);
+    transition:filter 0.5s;
+}
+img[data-src] {
+    filter:blur(0.2em);
+}
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
     border:1px solid gray;
     background-color:#15109A20;
