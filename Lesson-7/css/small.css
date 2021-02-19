@@ -153,3 +153,6 @@ tr {
     display:grid;
     grid-template-columns:1fr;
 }
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    border:2px solid black;
+}
