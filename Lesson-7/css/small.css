@@ -165,6 +165,7 @@ img[data-src] {
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
     border:1px solid gray;
     background-color:#15109A20;
+    margin:0 0 15px 0;
 }
 #one:hover, #two:hover, 
 #three:hover, #four:hover, 

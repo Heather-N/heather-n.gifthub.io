@@ -32,4 +32,7 @@
         grid-template-columns:1fr 1fr;
         grid-gap:15px;
     }
+    #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+        margin:0;
+    }
 }
