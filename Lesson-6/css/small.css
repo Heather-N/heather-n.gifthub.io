@@ -1,5 +1,6 @@
 /* light blue: #c4f0ff dark blue: #15109A darkest blue: #120E76 */
 
+/* PRESTON PAGE */
 body {
     max-width:960px;
     margin:auto;
@@ -143,4 +144,19 @@ tr {
     content:"";
     display:table;
     clear:both;
+}
+
+
+/* GALLERY PAGE */
+
+#weather-pics {
+    display:grid;
+    grid-template-columns:1fr;
+    margin:10px;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    border:1px solid gray;
+}
+section img {
+    width:100%;
 }

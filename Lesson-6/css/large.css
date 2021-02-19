@@ -1,4 +1,6 @@
 @media only screen and (min-width:60rem) {
+    
+    /* PRESTON PAGE */
     nav button {
         display:none;
     }
@@ -49,6 +51,14 @@
     }
     .article-pic {
         padding:0 0 10px 0;
+    }
+
+
+    /* GALLERY PAGE */
+
+    #weather-pics {
+        grid-template-columns:1fr 1fr 1fr;
+        margin:0;
     }
     
 }
