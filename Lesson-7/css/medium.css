@@ -30,5 +30,6 @@
 
     #weather-pics {
         grid-template-columns:1fr 1fr;
+        grid-gap:15px;
     }
 }
