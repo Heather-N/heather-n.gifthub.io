@@ -152,6 +152,7 @@ tr {
 #weather-pics {
     display:grid;
     grid-template-columns:1fr;
+    margin:10px;
 }
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
     border:1px solid gray;
