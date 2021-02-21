@@ -154,9 +154,30 @@ tr {
     grid-template-columns:1fr;
     margin:10px;
 }
+#weather-pics section picture img {
+    display:block;
+    filter:blur(0em);
+    transition:filter 0.5s;
+}
+img[data-src] {
+    filter:blur(0.2em);
+}
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
     border:1px solid gray;
+    background-color:#15109A20;
+    margin:0 0 15px 0;
+}
+#one:hover, #two:hover, 
+#three:hover, #four:hover, 
+#five:hover, #six:hover, 
+#seven:hover, #eight:hover, 
+#nine:hover {
+    box-shadow:0 0 20px #777;
 }
 section img {
     width:100%;
+}
+#galleryfooter {
+    display:block;
+    text-align:center;
 }
