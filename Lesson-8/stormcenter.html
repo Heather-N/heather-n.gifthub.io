@@ -41,10 +41,88 @@
             <h2>Storm Center</h2>
             <p>dfjdsf</p>
 
-            <form>
-                <label for="name">
-                    <input type="text" id="name" name="name" required="required" pattern="[a-zA-Z0-9]{5,}">
-                </label>
+            <h3>Report A Storm</h3>
+
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <label for="name">
+                        Full Name:*
+                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" required>
+                    </label>
+
+                    <label for="email">
+                        E-mail:
+                        <input type="email" id="email" name="email" placeholder="example@weathertru.com">
+                    </label>
+
+                    <label for="phone">
+                        Phone Number:*
+                        <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required>
+                    </label>
+
+                    <label for="zip">
+                        Zip Code:*
+                        <input type="number" id="zip" name="zip" required>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label for="date">
+                        Date of the Storm:
+                        <input type="date" id="date" name="date" value="2020-01-01">
+                    </label>
+                    <label for="stormtype">
+                        Storm Type:
+                        <input name="stormtype" list="stormtype">
+                    </label>
+
+                    <datalist id="stormtype">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+
+                    <label for="severity">
+                        Storm Severity:
+                        <input type="range" id="severity" name="range" value="5" min="1" max="10" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+
+                    <datalist id="tickmarks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+
+                    <label for="region">
+                        Storm Region:
+                        <select name="region">
+                            <option value="">Select Region...</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </label>
+
+                    <div>User In Danger?</div>
+                    <label><input type="radio" id="yes" name="danger">Yes</label>
+                    <label><input type="radio" id="maybe" name="danger">Maybe</label>
+                    <label><input type="radio" id="no" name="danger">No</label>
+                </fieldset>
+
+                <input type="submit" value="Report Storm">
             </form>
         </main>
 
