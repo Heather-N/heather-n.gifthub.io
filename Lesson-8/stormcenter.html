@@ -29,11 +29,11 @@
             <button onClick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="#">Home</a></li>
-                <li><a href="Lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="/Lesson-6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="Lesson-7/gallery-7.html" class="active">Gallery</a></li>
+                <li><a href="/Lesson-8/stormcenter.html" class="active">Storm Center</a></li>
+                <li><a href="/Lesson-7/gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
 
@@ -88,23 +88,23 @@
                     </datalist>
 
                     <label for="severity">
-                        Storm Severity:
-                        <input type="range" id="severity" name="range" value="5" min="1" max="10" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                        <span id="ratingvalue">5</span>
-                    </label>
+                        Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" name="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="rating">5</span>
 
-                    <datalist id="tickmarks">
-                        <option value="1"></option>
-                        <option value="2"></option>
-                        <option value="3"></option>
-                        <option value="4"></option>
-                        <option value="5"></option>
-                        <option value="6"></option>
-                        <option value="7"></option>
-                        <option value="8"></option>
-                        <option value="9"></option>
-                        <option value="10"></option>
-                    </datalist>
+                        <datalist id="tickmarks">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </label>
 
                     <label for="region">
                         Storm Region:
@@ -117,9 +117,14 @@
                     </label>
 
                     <div>User In Danger?</div>
-                    <label><input type="radio" id="yes" name="danger">Yes</label>
-                    <label><input type="radio" id="maybe" name="danger">Maybe</label>
-                    <label><input type="radio" id="no" name="danger">No</label>
+                    <label for="yes"><input type="radio" id="yes" name="danger">Yes</label>
+                    <label for="maybe"><input type="radio" id="maybe" name="danger">Maybe</label>
+                    <label for="no"><input type="radio" id="no" name="danger">No</label>
+
+                    <label for="additional">
+                        Additional Information or Comments:
+                        <input type="textarea" id="additional" name="additional">
+                    </label>
                 </fieldset>
 
                 <input type="submit" value="Report Storm">
