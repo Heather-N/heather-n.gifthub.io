@@ -177,3 +177,25 @@ section img {
 
 
 /* STORM CENTER PAGE */
+
+form fieldset {
+    margin:3em 0;
+    border:1px solid #120E76;
+    border-radius:10px;
+    padding:1em 2%;
+}
+form legend {
+    color:#120E76;
+    margin:0 1em;
+    padding:0 .5em;
+}
+
+form label.top {
+    display:block;
+    padding-top:1em;
+    color:#15109A;
+    font-size:.9em;
+}
+form label.top input, form label.top select {
+    display:block;
+}
