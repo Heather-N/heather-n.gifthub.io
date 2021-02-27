@@ -191,6 +191,9 @@ form legend {
     font-family: 'Fredoka One', cursive;
     font-size:1.6em;
 }
+form fieldset {
+    background-color:#15109A20;
+}
 
 form label.top {
     display:block;
