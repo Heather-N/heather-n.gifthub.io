@@ -74,4 +74,7 @@
     form label.sev input {
         max-width:20%;
     }
+    form label.danger {
+        padding:.4rem 0;
+    }
 }
