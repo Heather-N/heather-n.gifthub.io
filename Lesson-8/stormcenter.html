@@ -48,7 +48,7 @@
 
                     <label for="name" class="top">
                         Full Name:<span class="red">*</span>
-                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John Smith"required>
+                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John Smith" required>
                     </label>
 
                     <label for="email" class="top">
@@ -75,7 +75,7 @@
                     </label>
                     <label for="stormtype" class="top">
                         Storm Type:
-                        <input name="stormtype" list="stormtype">
+                        <input name="stormtype" id="stormtype" list="stormtype">
                     </label>
 
                     <datalist id="stormtype">
@@ -107,7 +107,7 @@
 
                     <label for="region" class="top">
                         Storm Region:
-                        <select name="region">
+                        <select name="region" id="region">
                             <option value="" selected disabled>Select Region...</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
@@ -122,7 +122,7 @@
 
                     <label for="additional" class="top">
                         Additional Information or Comments:
-                        <input type="textarea" id="additional" name="additional">
+                        <input type="text" id="additional" name="additional">
                     </label>
                 </fieldset>
 
