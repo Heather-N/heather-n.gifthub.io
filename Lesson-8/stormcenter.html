@@ -70,11 +70,11 @@
 
                 <fieldset>
                     <legend>Storm Information</legend>
-                    <label for="date">
+                    <label for="date" class="top">
                         Date of the Storm:
                         <input type="date" id="date" name="date" value="2020-01-01">
                     </label>
-                    <label for="stormtype">
+                    <label for="stormtype" class="top">
                         Storm Type:
                         <input name="stormtype" list="stormtype">
                     </label>
@@ -87,7 +87,7 @@
                         <option value="Tornado"></option>
                     </datalist>
 
-                    <label for="severity">
+                    <label for="severity" class="top">
                         Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="severity" name="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="rating">5</span>
@@ -106,10 +106,10 @@
                         </datalist>
                     </label>
 
-                    <label for="region">
+                    <label for="region" class="top">
                         Storm Region:
                         <select name="region">
-                            <option value="">Select Region...</option>
+                            <option value="" selected disabled>Select Region...</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>
@@ -121,7 +121,7 @@
                     <label for="maybe"><input type="radio" id="maybe" name="danger">Maybe</label>
                     <label for="no"><input type="radio" id="no" name="danger">No</label>
 
-                    <label for="additional">
+                    <label for="additional" class="top">
                         Additional Information or Comments:
                         <input type="textarea" id="additional" name="additional">
                     </label>
