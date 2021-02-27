@@ -239,3 +239,8 @@ form label.sev input {
 form label.sev span {
     margin:0 0 0 2%;
 }
+
+.thanks {
+    margin:3em;
+    text-align:center;
+}
