@@ -48,8 +48,8 @@
                     <legend>Your Information</legend>
 
                     <label for="name" class="top">
-                        Full Name:*
-                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" required>
+                        Full Name:<span class="red">*</span>
+                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John Smith"required>
                     </label>
 
                     <label for="email" class="top">
@@ -58,13 +58,13 @@
                     </label>
 
                     <label for="phone" class="top">
-                        Phone Number:*
+                        Phone Number:<span class="red">*</span>
                         <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required>
                     </label>
 
                     <label for="zip" class="top">
-                        Zip Code:*
-                        <input type="number" id="zip" name="zip" required>
+                        Zip Code:<span class="red">*</span>
+                        <input type="number" id="zip" name="zip" placeholder="xxxxx" required>
                     </label>
                 </fieldset>
 
@@ -87,7 +87,7 @@
                         <option value="Tornado"></option>
                     </datalist>
 
-                    <label for="severity" class="top">
+                    <label for="severity" class="top sev">
                         Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="severity" name="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="rating">5</span>
@@ -116,10 +116,10 @@
                         </select>
                     </label>
 
-                    <div>User In Danger?</div>
-                    <label for="yes"><input type="radio" id="yes" name="danger">Yes</label>
-                    <label for="maybe"><input type="radio" id="maybe" name="danger">Maybe</label>
-                    <label for="no"><input type="radio" id="no" name="danger">No</label>
+                    <div class="danger">User In Danger?</div>
+                    <label for="yes" class="radio"><input type="radio" id="yes" name="danger">Yes</label>
+                    <label for="maybe" class="radio"><input type="radio" id="maybe" name="danger">Maybe</label>
+                    <label for="no" class="radio"><input type="radio" id="no" name="danger">No</label>
 
                     <label for="additional" class="top">
                         Additional Information or Comments:
@@ -127,7 +127,7 @@
                     </label>
                 </fieldset>
 
-                <input type="submit" value="Report Storm">
+                <input type="submit" value="Report Storm" class="submitbtn">
             </form>
         </main>
 

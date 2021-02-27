@@ -195,6 +195,7 @@ form label.top {
     padding-top:1em;
     color:#15109A;
     font-size:.9em;
+    height:6em;
 }
 form label.top input, form label.top select {
     display:block;
@@ -206,4 +207,35 @@ form label.top input, form label.top select {
     width:100%;
     max-width:20rem;
     background-color:#F5F5F5;
+}
+form label.radio {
+    display:block;
+    padding:.75rem 0;
+    color:#555;
+}
+form div.danger {
+    color:#15109A;
+}
+form input.submitbtn {
+    border:none;
+    background-color:#120E76;
+    color:#c4f0ff;
+    border-radius:15px;
+    padding:.75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width:96%;
+    max-width:20rem;
+}
+form span.red {
+    color:red;
+}
+form label.sev {
+    display:flex;
+    align-items:center;
+}
+form label.sev input {
+    max-width:50%;
+}
+form label.sev span {
+    margin:0 0 0 2%;
 }

@@ -40,5 +40,7 @@
 
     /* STORM CENTER PAGE */
 
-    
+    form label.sev input {
+        max-width:40%;
+    }
 }
