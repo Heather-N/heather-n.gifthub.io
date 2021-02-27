@@ -60,6 +60,13 @@
         grid-template-columns:1fr 1fr 1fr;
         margin:0;
     }
+    #one:hover, #two:hover, 
+    #three:hover, #four:hover, 
+    #five:hover, #six:hover, 
+    #seven:hover, #eight:hover, 
+    #nine:hover {
+        box-shadow:0 0 20px #777;
+    }
 
 
     /* STORM CENTER PAGE */

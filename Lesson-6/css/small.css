@@ -167,13 +167,6 @@ img[data-src] {
     background-color:#15109A20;
     margin:0 0 15px 0;
 }
-#one:hover, #two:hover, 
-#three:hover, #four:hover, 
-#five:hover, #six:hover, 
-#seven:hover, #eight:hover, 
-#nine:hover {
-    box-shadow:0 0 20px #777;
-}
 section img {
     width:100%;
 }
