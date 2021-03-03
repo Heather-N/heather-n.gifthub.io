@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The WeatherTru Gallery Page">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Lesson-6/css/normalize.css">
+        <link rel="stylesheet" href="/Lesson-6/css/small.css">
+        <link rel="stylesheet" href="/Lesson-6/css/medium.css">
+        <link rel="stylesheet" href="/Lesson-6/css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <script src="js/script.js"></script>
+    </head>
+
+    <body onload="currentDate()">
+        <header>
+            <img src="images/weather-icon.png" alt="weather icon" id="main-icon">
+            <section class="heading">
+                <h1>WeatherTru</h1>
+                <p>The Truest Weather Out There</p>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="/Lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/Lesson-8/stormcenter.html" class="active">Storm Center</a></li>
+                <li><a href="/Lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+        </main>
+
+        <footer id="galleryfooter">
+            <div class="contact">
+                <h4>Contact Information</h4>
+                <p>1211 Weather Street</p>
+                <p>555-555-5555</p>
+                <p>contact@weathertru.com</p>
+        
+                <a href="#"><img src="images/social-icon-fb.png" alt="facebook icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-twitter.png" alt="twitter icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-yt.png" alt="youtube icon" class="social"/></a>
+            </div>
+
+            <p class="footer-bottom">&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontLoad.js">
+        </script>
+    </body>
+</html>
