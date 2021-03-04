@@ -255,7 +255,30 @@ form label.sev span {
 
 /* HOMEPAGE */
 
+.news {
+    background-color:palegoldenrod;
+    color:firebrick;
+    width:500px;
+}
 .home-article {
     background-color:#15109A;
     color:#c4f0ff;
+    padding:10px;
+}
+.home-article img {
+    float:left;
+    width:300px;
+    margin:1.5em;
+}
+.home-article a {
+    color:#c4f0ff;
+}
+.home-article h3 {
+    padding:0px;
+}
+.home-article p {
+    padding:0px;
+}
+#article-writer {
+    font-size:.8em;
 }
