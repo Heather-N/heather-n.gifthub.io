@@ -25,3 +25,28 @@ function topBanner() {
 function adjustRating(severity) {
     document.getElementById("rating").innerHTML = severity;
 }
+
+
+//Homepage Town Info
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(requestURL)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table (jsonObject);
+        const towns = jsonObject['towns'];
+        for (let i=0; i < towns.length; i++) {
+            //create new elements
+            let card = document.createElement('section');
+            let town = document.createElement('h2');
+            let motto = document.createElement('h5');
+            let founded = document.createElement('p');
+            let rain = document.createElement('p');
+            let image = document.createElement('img');
+
+            //content
+            town.textContent = town[i].name
+        }
+    })

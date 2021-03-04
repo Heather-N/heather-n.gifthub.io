@@ -259,6 +259,7 @@ form label.sev span {
     background-color:palegoldenrod;
     color:firebrick;
     width:500px;
+    padding:.5em 0 .5em .7em;
 }
 .home-article {
     background-color:#15109A;
