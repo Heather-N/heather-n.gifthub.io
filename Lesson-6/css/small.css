@@ -297,3 +297,17 @@ form label.sev span {
     border-radius:5px;
     text-align:center;
 }
+.towns section:hover {
+    box-shadow:0px 0px 20px #120E76;
+}
+.towns section h2 {
+    padding:0;
+    margin:25px 0 0 0;
+}
+.towns section h5 {
+    padding:0;
+    margin:10px 0 0 0;
+}
+.towns section p {
+    padding:0 10px 0 10px;
+}
