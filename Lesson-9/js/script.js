@@ -43,10 +43,15 @@ fetch(requestURL)
             let town = document.createElement('h2');
             let motto = document.createElement('h5');
             let founded = document.createElement('p');
+            let pop = document.createElement('p');
             let rain = document.createElement('p');
             let image = document.createElement('img');
 
             //content
-            town.textContent = town[i].name
+            town.textContent = towns[i].name;
+            motto.textContent = towns[i].motto;
+            founded.textContent = 'Founded in ' + towns[i].yearFounded;
+            pop.textContent = 'Population of ' + towns[i].currentPopulation;
+            rain.textContent = 'Annual Rain Fall of ' + towns[i].averageRainFall + ' in';
         }
     })
