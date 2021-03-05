@@ -47,13 +47,24 @@ fetch(requestURL)
             let rain = document.createElement('p');
             let image = document.createElement('img');
 
-            //content
-            town.textContent = towns[i].name;
-            motto.textContent = towns[i].motto;
-            founded.textContent = 'Founded in ' + towns[i].yearFounded;
-            pop.textContent = 'Population of ' + towns[i].currentPopulation;
-            rain.textContent = 'Annual Rain Fall of ' + towns[i].averageRainFall + ' in';
-            image.setAttribute('src', towns[i].photo);
-            image.setAttribute('alt', towns[i].name)
+            if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
+                //content
+                town.textContent = towns[i].name;
+                motto.textContent = towns[i].motto;
+                founded.textContent = 'Founded in ' + towns[i].yearFounded;
+                pop.textContent = 'Population of ' + towns[i].currentPopulation;
+                rain.textContent = 'Annual Rain Fall of ' + towns[i].averageRainFall + ' in';
+                image.setAttribute('src', towns[i].photo);
+                image.setAttribute('alt', towns[i].name);
+
+                card.appendChild(town);
+                card.appendChild(motto);
+                card.appendChild(founded);
+                card.appendChild(pop);
+                card.appendChild(rain);
+                card.appendChild(image);
+
+                document.querySelector('section.towns').appendChild(card);
+            }
         }
     })
