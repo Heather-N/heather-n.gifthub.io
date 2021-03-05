@@ -283,3 +283,17 @@ form label.sev span {
 #article-writer {
     font-size:.8em;
 }
+
+.towns {
+    margin:3em 0;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.towns section{
+    width:fit-content;
+    background-color:#15109A20;
+    color:#15109A;
+    border:1px solid #120E76;
+    border-radius:5px;
+    text-align:center;
+}
