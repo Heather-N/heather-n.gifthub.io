@@ -290,11 +290,11 @@ form label.sev span {
     grid-template-columns:1fr 1fr 1fr;
 }
 .towns section{
-    width:fit-content;
+    width:300px;
     background-color:#15109A20;
     color:#15109A;
     border:1px solid #120E76;
-    border-radius:5px;
+    border-radius:10px;
     text-align:center;
 }
 .towns section:hover {
