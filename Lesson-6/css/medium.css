@@ -43,4 +43,34 @@
     form label.sev input {
         max-width:40%;
     }
+
+
+    /* HOME PAGE */
+
+    .news {
+        width:100%;
+    }
+    .towns section {
+        width:90%;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        justify-items:center;
+        align-items:center;
+    }
+    .towns section:nth-child(even) img {
+        grid-column:1/2;
+        grid-row:1/6;
+
+    }
+    .towns section:nth-child(odd) img {
+        grid-column:2/3;
+        grid-row:1/6;
+        
+    }
+    .towns section:nth-child(even) h2, .towns section:nth-child(even) h5, .towns section:nth-child(even) p {
+        grid-column:2/3;
+    }
+    .towns section:nth-child(odd) h2, .towns section:nth-child(odd) h5, .towns section:nth-child(odd) p {
+        grid-column:1/2;
+    }
 }

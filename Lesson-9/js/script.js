@@ -54,7 +54,7 @@ fetch(requestURL)
                 founded.textContent = 'Founded in ' + towns[i].yearFounded;
                 pop.textContent = 'Population of ' + towns[i].currentPopulation;
                 rain.textContent = 'Annual Rain Fall of ' + towns[i].averageRainfall + 'in';
-                image.setAttribute('src', towns[i].photo);
+                image.setAttribute('src', 'images/' + towns[i].photo);
                 image.setAttribute('alt', towns[i].name);
 
                 card.appendChild(town);

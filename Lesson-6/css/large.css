@@ -77,4 +77,18 @@
     form label.danger {
         padding:.4rem 0;
     }
+
+    /* HOME PAGE */
+
+    .news {
+        width:500px;
+    }
+    .towns {
+        margin:3em 0;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .towns section:hover {
+        box-shadow:0px 0px 20px #120E76;
+    }
 }
