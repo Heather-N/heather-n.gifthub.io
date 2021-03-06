@@ -64,7 +64,7 @@ fetch(requestURL)
                 card.appendChild(rain);
                 card.appendChild(image);
 
-                document.querySelector('section.towns').appendChild(card);
+                document.querySelector('div.towns').appendChild(card);
             }
         }
     })
