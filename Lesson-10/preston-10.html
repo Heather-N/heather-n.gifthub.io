@@ -10,9 +10,11 @@
         <link rel="stylesheet" href="/Lesson-6/css/medium.css">
         <link rel="stylesheet" href="/Lesson-6/css/large.css">
         <link rel="shortcut icon" href="images/favicon.ico">
+        <script src="js/prestonweather.js"></script>
+        <script src="js/prestonforecast.js"></script>
     </head>
 
-    <body onload="currentDate(); topBanner(); windChill();">
+    <body onload="currentDate(); topBanner(); ">
         <div id="pancakes">
             <p>Saturday = Preston Pancakes in the Park!</p>
             <p>9:00 a.m. Saturday at the city park pavilion.</p>
@@ -49,11 +51,12 @@
                     alt="Sun shining over landscape" class="hero-image">
                 <div class="weathersum">
                     <h4>Weather Summary</h4>
-                    <p>Temperature:<span id="temp">45</span>°F</p>
-                    <p>Currently:Clear</p>
-                    <p>Wind Speed:<span id="windspeed">5</span>mph</p>
-                    <p>Humidity:60%</p>
-                    <p>Windchill:<span id ="windchill"></span>°F</p>
+                    <p>Courtesy of OpenWeatherMap</p>
+                    <p>Temperature: <span id="pres-temp"></span>°F</p>
+                    <p>Currently: <span id="pres-des"></span></p>
+                    <p>Wind Speed: <span id="pres-windspeed"></span>mph</p>
+                    <p>Humidity: <span id="pres-humid"></span>%</p>
+                    <p>Windchill: <span id ="windchill"></span>°F</p>
                 </div>
             </div>
 
@@ -61,11 +64,11 @@
                 <h3>Five Day Forecast</h3>
                 <table class="forecast-icons">
                     <tr>
-                        <th>Mon</th>
-                        <th>Tues</th>
-                        <th>Wed</th>
-                        <th>Thurs</th>
-                        <th>Fri</th>
+                        <th id="dayofweek1">Mon</th>
+                        <th id="dayofweek2">Tues</th>
+                        <th id="dayofweek3">Wed</th>
+                        <th id="dayofweek4">Thurs</th>
+                        <th id="dayofweek5">Fri</th>
                     </tr>
                     <tr>
                         <th><img srcset="images/icon-cloud-small.png 60w,
@@ -147,7 +150,6 @@
             <p class="footer-bottom">&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
         </footer>
         <script src="js/script.js"></script>
-        <script src="js/windchill.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/fontLoad.js"></script>
