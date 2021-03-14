@@ -7,8 +7,10 @@ fetch(url)
     .then((jsObject) => {
         console.log(jsObject);
         let day = 0;
-        let dayofWeek = [Sun, Mon, Tue, Wed, Thur, Fri, Sat];
+        const dayofWeek = [Sun, Mon, Tue, Wed, Thur, Fri, Sat];
+        const sixList = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
 
-        let d = new Date(jsObject.list[])
+        let d = new Date(jsObject.list[].dt_txt);
         document.getElementById('dayofweek${day+1}').textContent = dayofweek[d.getDay()];
+        document.getElementById('forecast${day+1}').textContent = jsObject.list[].main.temp;
     })

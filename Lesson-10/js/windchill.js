@@ -13,3 +13,5 @@ function windChill(){
 
 /* let result = Math.round(35.74 + (0.6215 * t) - (35.75 * (Math.pow(s, 0.16))) + ((0.4275 * t) * (Math.pow(s, 0.16)))); 
 separated is easiest to understand*/
+
+//storing this: const sixList = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
