@@ -20,18 +20,15 @@ fetch(url)
         sixList.forEach(x => {
             i = 0;
             
+            let image = 'https://openweathermap.org/img/w/' + x.weather[i].icon + '.png';
+            let description = x.weather[i].description;
+            document.getElementById(`icon${i + 1}`).setAttribute('src', image);
+            document.getElementById(`icon${i + 1}`).setAttribute('alt', description);
+            
             document.getElementById(`forecast${i + 1}`).textContent = Math.round(x.main.temp);
 
             i++;
         })
-        for (i=0; i < 5; i++) {
-            if (jsObject.list[i].dt_txt.includes('18:00:00')) {
-                day++;
-                
-                let date = d.getDay();
-                
-            }
-        }
         
 
         //let d = new Date(jsObject.list[].dt_txt);
