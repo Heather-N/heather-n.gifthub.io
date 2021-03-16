@@ -6,9 +6,9 @@ fetch(apiURL)
         response.json())
     .then((jsObject) => {
         //console.log(jsObject);
-        document.getElementById('pres-temp').textContent = jsObject.main.temp;
+        document.getElementById('pres-temp').textContent = Math.round(jsObject.main.temp);
         document.getElementById('pres-des').textContent = jsObject.weather[0].main;
-        document.getElementById('pres-windspeed').textContent = jsObject.wind.speed;
+        document.getElementById('pres-windspeed').textContent = Math.round(jsObject.wind.speed);
         document.getElementById('pres-humid').textContent = jsObject.main.humidity;
 
         //calculate windchill
