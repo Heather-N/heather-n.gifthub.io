@@ -9,26 +9,26 @@ fetch(url)
         let dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
         const sixList = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
-        let d = new Date(sixList[0].dt_txt);
-        document.getElementById('dayofweek1').textContent = dayofWeek[d.getDay()];
-        document.getElementById('dayofweek2').textContent = dayofWeek[d.getDay() + 1];
-        document.getElementById('dayofweek3').textContent = dayofWeek[d.getDay() + 2];
-        document.getElementById('dayofweek4').textContent = dayofWeek[d.getDay() + 3];
-        document.getElementById('dayofweek5').textContent = dayofWeek[d.getDay() + 4];
-
+        
+        let i = 0;
+        let y = 0;
         console.log(sixList);
+        //Using '${i +1}' as shown by Brother Blazzard
         sixList.forEach(x => {
-            i = 0;
             
-            //Using '${i +1}' as shown by Brother Blazzard
-            let image = 'https://openweathermap.org/img/w/' + x.weather[i].icon + '.png';
-            let description = x.weather[i].description;
+            let d = new Date(sixList[y].dt_txt);
+            document.getElementById(`dayofweek${i + 1}`).textContent = dayofWeek[d.getDay()];
+        
+            let image = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
+            let description = x.weather[0].description;
             document.getElementById(`icon${i + 1}`).setAttribute('src', image);
             document.getElementById(`icon${i + 1}`).setAttribute('alt', description);
 
             document.getElementById(`forecast${i + 1}`).textContent = Math.round(x.main.temp);
 
             i++;
+            y++;
+            
         })
         
 
