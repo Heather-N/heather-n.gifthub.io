@@ -20,11 +20,12 @@ fetch(url)
         sixList.forEach(x => {
             i = 0;
             
+            //Using '${i +1}' as shown by Brother Blazzard
             let image = 'https://openweathermap.org/img/w/' + x.weather[i].icon + '.png';
             let description = x.weather[i].description;
             document.getElementById(`icon${i + 1}`).setAttribute('src', image);
             document.getElementById(`icon${i + 1}`).setAttribute('alt', description);
-            
+
             document.getElementById(`forecast${i + 1}`).textContent = Math.round(x.main.temp);
 
             i++;
