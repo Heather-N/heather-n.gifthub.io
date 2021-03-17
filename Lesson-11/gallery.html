@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The WeatherTru Gallery Page">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Lesson-6/css/normalize.css">
+        <link rel="stylesheet" href="/Lesson-6/css/small.css">
+        <link rel="stylesheet" href="/Lesson-6/css/medium.css">
+        <link rel="stylesheet" href="/Lesson-6/css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <script src="js/script.js"></script>
+        <script src="js/lazy.js" defer></script>
+    </head>
+
+    <body onload="currentDate()">
+        <header>
+            <img src="images/weather-icon.png" alt="weather icon" id="main-icon">
+            <section class="heading">
+                <h1>WeatherTru</h1>
+                <p>The Truest Weather Out There</p>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/Lesson-9/index.html">Home</a></li>
+                <li><a href="/Lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/Lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/Lesson-7/gallery-7.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Weather Gallery</h2>
+            <div id="weather-pics">
+                <section id="one">
+                    <img src="images/placeholder.png" data-src="images/clearsky.jpg" alt="ClearSky" />
+                    <p>Photo of a clear sky.</p>
+                </section>
+
+                <section id="two">
+                    <img src="images/placeholder.png" data-src="images/ice.jpg" alt="Ice on branches" />
+                    <p>Ice on tree branches.</p>
+                </section>
+
+                <section id="three">
+                    <img src="images/placeholder.png" data-src="images/lightning.jpg" alt="Lightning in the sky" />
+                    <p>Lightning bolt in the sky.</p>
+                </section>
+
+                <section id="four">
+                    <img src="images/placeholder.png" data-src="images/snowstorm.jpg" alt="Snowstorm over a town" />
+                    <p>Snowstorm over a town.</p>
+                </section>
+
+                <section id="five">
+                    <img src="images/placeholder.png" data-src="images/sunbeam.jpg" alt="Sun shining through the clouds" />
+                    <p>Sun shining through the clouds.</p>
+                </section>
+
+                <section id="six">
+                    <img src="images/placeholder.png" data-src="images/snowystreet.jpg" alt="Snow covered street." />
+                    <p>A snow-covered street.</p>
+                </section>
+
+                <section id="seven">
+                    <img src="images/placeholder.png" data-src="images/tornado.jpg" alt="Tornado and lightning" />
+                    <p>Tornado forming alongside lightning.</p>
+                </section>
+
+                <section id="eight">
+                    <img src="images/placeholder.png" data-src="images/fog.jpg" alt="Fog over a city" />
+                    <p>Fog spread through a city.</p>
+                </section>
+
+                <section id="nine">
+                    <img src="images/placeholder.png" data-src="images/rain.jpg" alt="Rain falling on umbrella" />
+                    <p>Rain stopped by umbrella.</p>
+                </section>
+            </div>
+        </main>
+
+        <footer id="galleryfooter">
+            <div class="contact">
+                <h4>Contact Information</h4>
+                <p>1211 Weather Street</p>
+                <p>555-555-5555</p>
+                <p>contact@weathertru.com</p>
+        
+                <a href="#"><img src="images/social-icon-fb.png" alt="facebook icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-twitter.png" alt="twitter icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-yt.png" alt="youtube icon" class="social"/></a>
+            </div>
+
+            <p class="footer-bottom">&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontLoad.js">
+        </script>
+    </body>
+</html>

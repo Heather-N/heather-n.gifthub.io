@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The WeatherTru Gallery Page">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Lesson-6/css/normalize.css">
+        <link rel="stylesheet" href="/Lesson-6/css/small.css">
+        <link rel="stylesheet" href="/Lesson-6/css/medium.css">
+        <link rel="stylesheet" href="/Lesson-6/css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <script src="js/script.js"></script>
+    </head>
+
+    <body onload="currentDate()">
+        <header>
+            <img src="images/weather-icon.png" alt="weather icon" id="main-icon">
+            <section class="heading">
+                <h1>WeatherTru</h1>
+                <p>The Truest Weather Out There</p>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/Lesson-9/index.html">Home</a></li>
+                <li><a href="/Lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/Lesson-8/stormcenter.html" class="active">Storm Center</a></li>
+                <li><a href="/Lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Storm Center</h2>
+            <p>If you are experiencing a storm, fill out the form below to let us know!</p>
+
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <label for="name" class="top">
+                        Full Name:<span class="red">*</span>
+                        <input type="text" id="name" name="name"  pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John Smith" required>
+                    </label>
+
+                    <label for="email" class="top">
+                        E-mail:
+                        <input type="email" id="email" name="email" placeholder="example@weathertru.com">
+                    </label>
+
+                    <label for="phone" class="top">
+                        Phone Number:<span class="red">*</span>
+                        <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required>
+                    </label>
+
+                    <label for="zip" class="top">
+                        Zip Code:<span class="red">*</span>
+                        <input type="number" id="zip" name="zip" placeholder="xxxxx" required>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label for="date" class="top">
+                        Date of the Storm:
+                        <input type="date" id="date" name="date" value="2020-01-01">
+                    </label>
+                    <label for="type" class="top">
+                        Storm Type:
+                        <input name="stormtype" id="type" list="stormtype">
+                    </label>
+
+                    <datalist id="stormtype">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+
+                    <label for="severity" class="top sev">
+                        Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" name="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="rating">5</span>
+
+                        <datalist id="tickmarks">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </label>
+
+                    <label for="region" class="top">
+                        Storm Region:
+                        <select name="region" id="region">
+                            <option value="" selected disabled>Select Region...</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <br />
+
+                    <div class="danger">User In Danger?</div>
+                    <label for="yes" class="radio"><input type="radio" id="yes" name="danger">Yes</label>
+                    <label for="maybe" class="radio"><input type="radio" id="maybe" name="danger">Maybe</label>
+                    <label for="no" class="radio"><input type="radio" id="no" name="danger">No</label>
+                    <br />
+                </fieldset>
+
+                <fieldset class="information">
+                    <label for="additional" class="top">
+                        <legend>Additional Information</legend>
+                        <textarea id="additional" name="additional" rows="6" cols="40"></textarea>
+                    </label>
+                </fieldset>
+
+                <input type="submit" value="Report Storm" class="submitbtn">
+            </form>
+        </main>
+
+        <footer id="galleryfooter">
+            <div class="contact">
+                <h4>Contact Information</h4>
+                <p>1211 Weather Street</p>
+                <p>555-555-5555</p>
+                <p>contact@weathertru.com</p>
+        
+                <a href="#"><img src="images/social-icon-fb.png" alt="facebook icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-twitter.png" alt="twitter icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-yt.png" alt="youtube icon" class="social"/></a>
+            </div>
+
+            <p class="footer-bottom">&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontLoad.js">
+        </script>
+    </body>
+</html>
