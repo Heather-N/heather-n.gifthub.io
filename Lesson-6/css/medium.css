@@ -14,8 +14,11 @@
     }
     .weathersum {
         position:absolute;
-        top:50px;
+        top:20px;
         left:50px;
+    }
+    .weathersum p {
+        margin:.5em 0 .5em 0;
     }
     .footer-map {
         text-align:center;
