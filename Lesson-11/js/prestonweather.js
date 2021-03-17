@@ -21,7 +21,7 @@ fetch(apiURL)
         let b = 0.4275 * t;
         let c = 35.74 + x - a + b * y;
         let result = Math.round(c);
-        document.getElementById('windchill').innerHTML = result;
+        document.getElementById('pres-windchill').innerHTML = result;
     })
 
 
