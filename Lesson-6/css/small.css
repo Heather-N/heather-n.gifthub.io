@@ -80,6 +80,9 @@ table, tr, th {
 tr {
     text-align:center;
 }
+th {
+    padding:.5em;
+}
 
 .primaryNav {
     padding:0;
@@ -138,6 +141,9 @@ tr {
 }
 #primaryNav {
     padding:0;
+}
+#icon1, #icon2, #icon3, #icon4, #icon5 {
+    display:block;
 }
 
 .clearfix:after {
