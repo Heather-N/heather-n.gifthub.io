@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Weathertru</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The WeatherTru Home Page">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Lesson-6/css/normalize.css">
+        <link rel="stylesheet" href="/Lesson-6/css/small.css">
+        <link rel="stylesheet" href="/Lesson-6/css/medium.css">
+        <link rel="stylesheet" href="/Lesson-6/css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <script src="js/script.js"></script>
+    </head>
+
+    <body onload="currentDate()">
+        <header>
+            <img src="images/weather-icon.png" alt="weather icon" id="main-icon">
+            <section class="heading">
+                <h1>WeatherTru</h1>
+                <p>The Truest Weather Out There</p>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/Lesson-9/index.html" class="active">Home</a></li>
+                <li><a href="/Lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/Lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/Lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <br />
+            <picture>
+                <source srcset="images/snowflake-large.jpg" media="(min-width:960px)">
+                <source srcset="images/snowflake-medium.jpg" media="(min-width:520px)">
+                <source srcset="images/snowflake-small.jpg" media="(max-width:519px)">
+                <img src="images/snowflake-large.jpg" alt="Snowflake" class="hero-image">
+            </picture>
+
+            <h2 class="news"><img src="images/lightning.png" alt="lightning icon">BREAKING NEWS<img src="images/lightning.png" alt="lightning icon"></h2>
+            <section class="home-article">
+                <img src="images/Governor-Large.jpg" alt="Idaho Governor Little">
+                <h3>Idaho Governor Not so Sure on President Biden’s Vaccine Projections</h3>
+                <p id="article-writer">Eric Grossarth | March 3, 2021 | East Idaho News</p>
+                <p>BOISE — President Joe Biden promised enough COVID-19 vaccine for every adult by May, but Idaho Gov. Brad Little is not so sure.</p>
+
+                <p>“I don’t think the math adds up,” Gov. Little said during an Idaho Press Club legislative headliner on Wednesday.</p>
+                    
+                <p>Biden made his announcement Tuesday, the same day Little and other governors spoke with White House COVID Coordinator Jeff Zients. Little said numbers given during the call do not reach the need to have a vaccine into the arm of every adult Idahoan by May. He said the Gem State will have about 120% more doses in May than what it has now. ... <a href="https://www.eastidahonews.com/2021/03/idaho-governor-not-so-sure-on-president-bidens-vaccine-projections/">Continue reading here</a></p>
+            </section>
+
+            <div class="towns">
+            </div>
+        </main>
+
+        <footer id="galleryfooter">
+            <div class="contact">
+                <h4>Contact Information</h4>
+                <p>1211 Weather Street</p>
+                <p>555-555-5555</p>
+                <p>contact@weathertru.com</p>
+        
+                <a href="#"><img src="images/social-icon-fb.png" alt="facebook icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-twitter.png" alt="twitter icon" class="social"/></a>
+                <a href="#"><img src="images/social-icon-yt.png" alt="youtube icon" class="social"/></a>
+                <p><a href="home-wireframes.html">Homepage Wireframes</a></p>
+            </div>
+
+            <p class="footer-bottom">&copy; WeatherTru | Current Date: <span id="currentdate"></span> | Heather Nelson</p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontLoad.js">
+        </script>
+    </body>
+</html>

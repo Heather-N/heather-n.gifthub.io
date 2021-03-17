@@ -1,0 +1,97 @@
+@media only screen and (min-width:60rem) {
+    
+    /* PRESTON PAGE */
+    nav button {
+        display:none;
+    }
+    nav ul li a {
+        padding:.6rem 1rem;
+        font-size:1.4em;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul li {
+        float:left;
+    }
+    
+    .forecast {
+        background-color:transparent;
+        color:black;
+        font-size:1.3em;
+        text-align:center;
+    }
+    .articles {
+        background-color:#15109A;
+        color:#c4f0ff;
+    }
+    footer {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .map {
+        padding:10px;
+    }
+    .footer-map {
+        grid-column-start:1;
+        grid-column-end:2;
+    }
+    .contact {
+        grid-column-start:2;
+        grid-column-end:3;
+    }
+    .footer-bottom {
+        grid-column:1/3;
+        text-align:center;
+    }
+    
+    .social {
+        display:inline;
+        width:35px;
+    }
+    .article-pic {
+        padding:0 0 10px 0;
+    }
+
+
+    /* GALLERY PAGE */
+
+    #weather-pics {
+        grid-template-columns:1fr 1fr 1fr;
+        margin:0;
+    }
+    #one:hover, #two:hover, 
+    #three:hover, #four:hover, 
+    #five:hover, #six:hover, 
+    #seven:hover, #eight:hover, 
+    #nine:hover {
+        box-shadow:0 0 20px #777;
+    }
+
+
+    /* STORM CENTER PAGE */
+
+    form label.sev input {
+        max-width:20%;
+    }
+    form label.danger {
+        padding:.4rem 0;
+    }
+
+    /* HOME PAGE */
+
+    .news {
+        width:500px;
+    }
+    .towns {
+        margin:3em 0;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .towns section {
+        display:block;
+    }
+    .towns section:hover {
+        box-shadow:0px 0px 20px #120E76;
+    }
+}
