@@ -152,6 +152,10 @@ th {
     clear:both;
 }
 
+/* SODA SPRINGS */
+#weathericon1, #weathericon2, #weathericon3, #weathericon4, #weathericon5 {
+    display:block;
+}
 
 /* GALLERY PAGE */
 
