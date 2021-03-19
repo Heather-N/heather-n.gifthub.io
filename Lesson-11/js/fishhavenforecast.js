@@ -1,4 +1,4 @@
-const url = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=d4bbab983f15105c9250449493f70b92";
+const url = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=d4bbab983f15105c9250449493f70b92";
 
 fetch(url)
     .then ((response) =>
@@ -15,14 +15,14 @@ fetch(url)
         sixList.forEach(x => {
             
             let d = new Date(sixList[i].dt_txt);
-            document.getElementById(`weekday${i + 1}`).textContent = dayofWeek[d.getDay()];
+            document.getElementById(`day${i + 1}`).textContent = dayofWeek[d.getDay()];
         
             let image = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
             let description = x.weather[0].description;
-            document.getElementById(`weathericon${i + 1}`).setAttribute('src', image);
-            document.getElementById(`weathericon${i + 1}`).setAttribute('alt', description);
+            document.getElementById(`weatherimg${i + 1}`).setAttribute('src', image);
+            document.getElementById(`weatherimg${i + 1}`).setAttribute('alt', description);
 
-            document.getElementById(`temp${i + 1}`).textContent = Math.round(x.main.temp);
+            document.getElementById(`frcst${i + 1}`).textContent = Math.round(x.main.temp);
 
             i++;
             
