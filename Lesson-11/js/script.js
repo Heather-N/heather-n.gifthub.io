@@ -19,3 +19,11 @@ function topBanner() {
         document.getElementById('pancakes').style.display = 'none';
     }
 }
+
+
+//Storm Severity Label
+function adjustRating(severity) {
+    document.getElementById("rating").innerHTML = severity;
+}
+
+

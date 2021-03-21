@@ -7,6 +7,9 @@ body {
     background-color:#c4f0ff60;
     font-family: 'Noto Sans', sans-serif;
 }
+a {
+    color:#c4f0ff;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fredoka One', cursive;
 }
@@ -127,6 +130,9 @@ th {
 .social {
     max-width:2.5em;
 }
+.articles p {
+    margin:0;
+}
 .article-pic {
     display:block;
     margin:auto;
@@ -145,6 +151,28 @@ th {
 #icon1, #icon2, #icon3, #icon4, #icon5 {
     display:block;
 }
+.preston-events {
+    background-color:#15109A;
+    padding:2em;
+    width:500px;
+    margin:0 auto;
+}
+.preston-events section {
+    width:300px;
+    background-color:#120E76;
+    border:8px double #c4f0ff;
+    margin:0 auto;
+    text-align:center;
+    padding:.5em 2em;
+    color:#c4f0ff;
+    box-shadow:0px 0px 40px darkgray;
+}
+.preston-events section h4 {
+    margin:.5em 0 .5em 0;
+}
+.preston-events section p {
+    margin:0;
+}
 
 .clearfix:after {
     content:"";
@@ -155,6 +183,55 @@ th {
 /* SODA SPRINGS */
 #weathericon1, #weathericon2, #weathericon3, #weathericon4, #weathericon5 {
     display:block;
+}
+.ss-events {
+    background-color:#15109A;
+    padding:2em;
+    width:500px;
+    margin:0 auto;
+}
+.ss-events section {
+    width:300px;
+    background-color:#120E76;
+    border:8px double #c4f0ff;
+    margin:0 auto;
+    text-align:center;
+    padding:.5em 2em;
+    color:#c4f0ff;
+    box-shadow:0px 0px 40px darkgray;
+}
+.ss-events section h4 {
+    margin:.5em 0 .5em 0;
+}
+.ss-events section p {
+    margin:0;
+}
+
+/* FISH HAVEN PAGE */
+#weatherimg1, #weatherimg2, #weatherimg3, #weatherimg4, #weatherimg5 {
+    display:block;
+}
+.fh-events {
+    background-color:#15109A;
+    padding:2em;
+    width:500px;
+    margin:0 auto;
+}
+.fh-events section {
+    width:300px;
+    background-color:#120E76;
+    border:8px double #c4f0ff;
+    margin:0 auto;
+    text-align:center;
+    padding:.5em 2em;
+    color:#c4f0ff;
+    box-shadow:0px 0px 40px darkgray;
+}
+.fh-events section h4 {
+    margin:.5em 0 .5em 0;
+}
+.fh-events section p {
+    margin:0;
 }
 
 /* GALLERY PAGE */

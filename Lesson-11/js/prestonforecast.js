@@ -11,7 +11,7 @@ fetch(url)
         const sixList = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
         
         let i = 0;
-        console.log(sixList);
+        //console.log(sixList);
         //Using '${i +1}' as shown by Brother Blazzard
         sixList.forEach(x => {
             
