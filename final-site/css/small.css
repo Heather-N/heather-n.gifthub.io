@@ -4,7 +4,48 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    background-color:#DCEDFF;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dela Gothic One', cursive;
+    color:#505A5B;
+}
+header {
+    text-align:center;
+}
+header, footer {
+    background-color:#94B0DA;
+    margin:0;
+    padding:1em;
+}
+nav {
+    background-color:#8F91A2;
+}
+nav ul {
+    list-style-type:none;
+}
+nav button {
+    margin:.2rem 2%;
+    background-color:transparent;
+    border:none;
+    font-size:1.6rem;
+}
+nav a {
+    text-decoration:none;
+    padding:15px;
+    color:#DCEDFF;
+    font-size:20px;
+    text-align:center;
+}
+nav a:hover{
+    background-color:#94B0DA;
+    color:#505A5B;
+}
+nav ul li a {
+    display:block;
+    padding:.8rem 2%;
+    text-decoration:none;
+}
+nav ul.hide {
+    display:none;
 }
