@@ -1,0 +1,16 @@
+@media only screen and (min-width:60rem) {
+    nav button {
+        display:none;
+    }
+    nav ul li a {
+        padding:.6rem 1rem;
+        font-size:1.4em;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul li {
+        float:left;
+        width:20%;
+    }
+}
