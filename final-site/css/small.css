@@ -25,6 +25,7 @@ nav {
 }
 nav ul {
     list-style-type:none;
+    padding:0;
 }
 nav button {
     margin:.2rem 2%;
@@ -58,6 +59,17 @@ nav ul.hide {
 main {
     padding:2em;
 }
+table, tr, th {
+    border:none;
+    text-align: center;
+}
+.forecast {
+    margin:0 auto;
+    text-align:center;
+    background-color: #94B0DA;
+    padding:1em;
+    width:40em;
+}
 
 .icon {
     width:100px;
@@ -82,8 +94,14 @@ main {
     color:white;
     border:2px solid black;
     border-radius:10px;
-    width:18em;
+    width:20em;
     padding:.5em 1em .5em 1em;
+}
+.weather h3 {
+    text-align: center;
+}
+.weather h3 img {
+    width:2em;
 }
 .image {
     width:1000px;
@@ -99,6 +117,7 @@ main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:10px;
+    justify-items: center;
 }
 .card1, .card2 {
     width:300px;
@@ -108,7 +127,8 @@ main {
 }
 .card1 img, .card2 img {
     width:300px;
-    border-radius: 10px 10px 0 0;
+    height:160px;
+    border-radius: 8px 8px 0 0;
 }
 .card1 h4, .card1 p, .card2 h4, .card2 p {
     margin:15px;

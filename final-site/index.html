@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/large.css">
 
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
 </head>
 
 <body>
@@ -43,8 +44,10 @@
             </div>
 
             <section class="weather">
-                <p><span id="temp"></span>°F <span id="desc"></span></p>
-                <p>Humidity: <span id="humid"></span></p>
+                <h3>Springville Weather </h3>
+                <p>Temperatue: <span id="temp"></span>°F</p>
+                <p>Description: <span id="desc"></span></p>
+                <p>Humidity: <span id="humid">%</span></p>
             </section>
         </div>
 
@@ -59,12 +62,37 @@
                 <p>&#9742; (801) 489-9310</p>
             </div>
             <div class="card2">
-                <img src="" alt="">
-                <h4></h4>
-                <p>&#9992; </p>
-                <p>&#9993; </p>
-                <p>&#9742; </p>
+                <img src="images/wright3.png" alt="Write Flower Company">
+                <h4>Wright Flower Company</h4>
+                <p>&#9992; 460 North Main Street</p>
+                <p>&#9993; contact on website</p>
+                <p>&#9742; (801) 489-4219</p>
             </div>
+            <div class="card2">
+                <img src="images/reams2.png" alt="Reams Springille Market">
+                <h4>Reams Springville Market</h4>
+                <p>&#9992; 759 E 400 S</p>
+                <p>&#9993; customercare@springvillereams.com</p>
+                <p>&#9742; (801) 489-0088</p>
+            </div>
+        </div>
+
+        <img src="images/done-freeway.jpg" alt="Springville freeway entrance" class="image">
+
+        <div class="forecast">
+            <h2>3-Day Forecast</h2>
+            <table>
+                <tr>
+                    <th><span id="day1"></span></th>
+                    <th><span id="day2"></span></th>
+                    <th><span id="day3"></span></th>
+                </tr>
+                <tr>
+                    <th><span id="forecast1"></span></th>
+                    <th><span id="forecast2"></span></th>
+                    <th><span id="forecast3"></span></th>
+                </tr>
+            </table>
         </div>
     </main>
 
