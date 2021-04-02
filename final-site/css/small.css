@@ -10,10 +10,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Dela Gothic One', cursive;
     color:#505A5B;
 }
-header {
-    text-align:center;
-}
 header, footer {
+    text-align:center;
     background-color:#94B0DA;
     margin:0;
     padding:1em;
@@ -43,6 +41,7 @@ nav a {
 nav a:hover{
     background-color:#94B0DA;
     color:#505A5B;
+    border:2px solid #fcffa4;
 }
 .active {
     color:#fcffa4;
@@ -59,9 +58,20 @@ nav ul.hide {
 main {
     padding:2em;
 }
+table {
+    width:50%;
+}
 table, tr, th {
-    border:none;
-    text-align: center;
+    border:5px solid #94B0DA;
+    margin:0 auto;
+}
+tr {
+    text-align:center;
+}
+th {
+    border-radius:20px;
+    padding:1em;
+    background-color: #DCEDFF;
 }
 .forecast {
     margin:0 auto;
@@ -143,3 +153,52 @@ table, tr, th {
     display:table;
     clear:both;
 }
+
+
+
+/* CITY PAGE */
+
+
+#city {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.city-intro {
+    text-align: center;
+    grid-column: 1/6;
+}
+.history {
+    grid-column: 1/4;
+    align-self: center;
+}
+#city iframe {
+    grid-column: 5/6;
+    margin:5px;
+}
+#art-city {
+    grid-column: 1/2;
+}
+.art {
+    grid-column:3/6;
+    align-self: center;
+}
+.events {
+    text-align: center;
+    grid-column: 1/6;
+    border-top:2px solid #94B0DA;
+    padding:.5em 0 .5em 0;
+}
+.event-list {
+    grid-column: 1/4;
+    align-self: center;
+}
+.event-list p, .event-list h3 {
+    margin:.2em;
+}
+.ferris {
+    grid-column: 5/6;
+}
+
+
+
+/* JOIN PAGE */

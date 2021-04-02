@@ -19,5 +19,7 @@ fetch(apiURL)
         for (i=0; i<3; i++) {
             let d = new Date(jsObject.daily[i].dt);
             document.getElementById(`day${i + 1}`).textContent = dayofWeek[d.getDay()];
+
+            document.getElementById(`forecast${i + 1}`).textContent = Math.round(jsObject.daily[i].temp.day);
         }
     })
