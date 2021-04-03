@@ -27,16 +27,133 @@
 
     <nav class="clearfix">
         <button onClick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="">
+            <ul id="primaryNav" class="hide">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="city.html" class="active">Springville City</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="city.html">Springville City</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
     </nav>
 
     <main>
+        <h2>Join the Springville City Chamber of Commerce</h2>
+        <p>Fill out the form below to join the chamber of commerce.</p>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname" class="form">
+                    First Name:<span class="red">*</span>
+                    <input type="text" id="fname" name="fname" pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John" required="required">
+                </label>
+
+                <label for="lname" class="form">
+                    Last Name:<span class="red">*</span>
+                    <input type="text" id="lname" name="lname" pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="Smith" required="required">
+                </label>
+
+                <label for="title" class="form">
+                    Title:
+                    <input type="text" id="title" name="title" placeholder="Business owner">
+                </label>
+
+                <label for="email" class="form">
+                    E-mail:<span class="red">*</span>
+                    <input type="email" id="email" name="email" placeholder="example@yourmail.com" required="required">
+                </label>
+
+                <label for="phone" class="form">
+                    Phone Number:
+                    <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required="required">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <lable for="busname" class="form">
+                    Business Name:<span class="red">*</span>
+                    <input type="text" id="busname" name="busname" placeholder="MyBusiness" required="required">
+                </lable>
+
+                <label for="address" class="form">
+                    Business Address:
+                    <input type="text" id="address" name="address" placeholder="55 S place street">
+                </label>
+
+                <label for="website" class="form">
+                    Business Website:
+                    <input type="text" id="website" name="website" placeholder="mybusiness.com">
+                </label>
+
+                <label for="description" class="form">
+                    Business Description:
+                    <textarea id="description" name="description" rows="6" cols="30"></textarea>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Information</legend>
+                <p>Membership Level:<span class="red">*</span></p>
+                <label for="nonprofit" class="radio">
+                    <input type="radio" id="nonprofit" name="membership">
+                    None-Profit ($100)
+                </label>
+                <label for="bronze" class="radio">
+                    <input type="radio" id="bronze" name="membership">
+                    Bronze ($200)
+                </label>
+                <lable for="silver" class="radio">
+                    <input type="radio" id="silver" name="membership">
+                    Silver ($400)
+                </lable>
+                <label for="gold" class="radio">
+                    <input type="radio" id="gold" name="membership">
+                    Gold ($1000)
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Join Now" class="submitbtn">
+        </form>
+
+        <div class="member-level">
+            <h2>Membership Levels</h2>
+            <h3>Non-profit - $100</h3>
+            <ul>
+                <li>Weekly social media posts</li>
+                <li>Booth at art city days</li>
+                <li>Added to directory</li>
+            </ul>
+
+            <h3>Bronze - $200</h3>
+            <ul>
+                <li>Weekly social media posts</li>
+                <li>Booth at art city days</li>
+                <li>Added to directory</li>
+                <li>Basic business training</li>
+                <li>Location and image added to website</li>
+            </ul>
+
+            <h3>Silver - $400</h3>
+            <ul>
+                <li>Twice weekly social media posts</li>
+                <li>Booth at art city days</li>
+                <li>Added to directory</li>
+                <li>Intermediate business training</li>
+                <li>Highlighted on website</li>
+                <li>Social media training</li>
+            </ul>
+
+            <h3>Gold - $1000</h3>
+            <ul>
+                <li>Daily social media posts</li>
+                <li>Booth at art city days</li>
+                <li>Added to directory</li>
+                <li>Master business training</li>
+                <li>Highlighted on website</li>
+                <li>Social media training</li>
+                <li>Promoted in city events</li>
+            </ul>
+        </div>
     </main>
 
     <footer>

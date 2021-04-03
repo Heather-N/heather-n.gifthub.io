@@ -1,0 +1,12 @@
+@media only screen and (min-width:32.5rem) {
+
+
+    /* JOIN PAGE */
+
+    form fieldset {
+        width:75%;
+    }
+    .form input {
+        width:100%;
+    }
+}

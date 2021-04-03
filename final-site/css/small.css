@@ -202,3 +202,62 @@ th {
 
 
 /* JOIN PAGE */
+
+form fieldset {
+    margin:2em 0;
+    border:3px solid #505A5B;
+    border-radius:10px;
+    padding:1em 2%;
+    background-color:#94B0DA90;
+    color:#505A5B;
+}
+form legend {
+    margin:0 1em;
+    padding:0 .5em;
+    font-family: 'Dela Gothic One', cursive;;
+    font-size: 1.5em;
+    color:#505A5B;
+}
+.form {
+    display:block;
+    padding-top:1em;
+}
+.form input {
+    display:block;
+    font-size:1rem;
+    border:1px solid #999;
+    border-radius:4px;
+    padding:.75em;
+    color:#555;
+    max-width:20rem;
+    background-color:#F5F5F5;
+}
+.form textarea {
+    display:block;
+}
+form label.radio {
+    display:block;
+    padding:.75rem 0;
+    color:#555;
+}
+form input.submitbtn {
+    border:2px solid #505A5B;
+    background-color:#8F91A2;
+    color:#DCEDFF;
+    border-radius:10px;
+    padding:.75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width:90%;
+    max-width:20rem;
+}
+span.red {
+    color:red;
+}
+
+.member-level {
+    text-align: center;
+    border-top:2px solid #94B0DA;
+}
+.member-level ul {
+    list-style-type:none;
+}

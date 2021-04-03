@@ -13,4 +13,12 @@
         float:left;
         width:20%;
     }
+
+
+
+    /* JOIN PAGE */
+
+    form fieldset {
+        width:50%;
+    }
 }
