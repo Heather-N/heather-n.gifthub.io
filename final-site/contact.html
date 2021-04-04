@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Springville Chamber of Commerce</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Springville, Utah chamber of commerce website home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Springille City</h1>
+        <img src="images/mtn-icon1.png" alt="mountain icon" class="icon">
+        <h1>Chamber of Commerce</h1>
+    </header>
+
+    <nav class="clearfix">
+        <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">Springville City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <form method="get" action="sent.html">
+            <fieldset>
+                <legend>Contact Us:</legend>
+                <label for="name" class="contact">
+                    Name:<span class="red">*</span>
+                    <input type="text" id="name" name="name" pattern="^[a-zA-Z\s\.\-]{5,}$" placeholder="John Smith" required="required">
+                </label>
+
+                <label for="email" class="form">
+                    E-mail:<span class="red">*</span>
+                    <input type="email" id="email" name="email" placeholder="example@yourmail.com" required="required">
+                </label>
+
+                <label for="phone" class="contact">
+                    Phone Number:
+                    <input type="text" id="phone" name="phone" placeholder="555-555-5555">
+                </label>
+
+                <label for="comment" class="contact">
+                    Comment:<span class="red">*</span>
+                    <textarea id="comment" name="comment" rows="6" cols="30"></textarea>
+                </label>
+            </fieldset>
+        </form>
+
+        <br />
+
+        <h2>Board of Directors:</h2>
+        <h3>James Archibald</h3>
+        <h3>Cathy Masterson</h3>
+        <h3>Adam Hoth</h3>
+        <h3>Serina Jacobs</h3>
+        <h3>Benjamin Gusterman</h3>
+
+        <br />
+        <br />
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97571.63586273366!2d-111.68004249272727!3d40.1620238998045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d962ee1ee8d05%3A0x5678ae5a009f7c7f!2sSpringville%2C%20UT!5e0!3m2!1sen!2sus!4v1617484015683!5m2!1sen!2sus" allowfullscreen="" loading="lazy" class="map"></iframe>
+    </main>
+
+    <footer>
+        <h4>Contact Us!</h4>
+        <p>(801) 555-555</p>
+        <p>55 N Main Street</p>
+        <p>customersupport@artcitycommerce.com</p>
+    </footer>
+</body>
+
+</html>

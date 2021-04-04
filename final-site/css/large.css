@@ -21,4 +21,12 @@
     form fieldset {
         width:50%;
     }
+
+
+    /* CONTACT PAGE */
+
+    .map {
+        width:600px;
+        height:450px;
+    }
 }

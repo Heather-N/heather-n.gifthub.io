@@ -9,4 +9,15 @@
     .form input {
         width:100%;
     }
+
+
+    /* CONTACT PAGE */
+
+    .contact input {
+        width:100%;
+    }
+    .map {
+        width:500px;
+        height:375px;
+    }
 }

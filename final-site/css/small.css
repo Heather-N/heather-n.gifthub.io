@@ -261,3 +261,37 @@ span.red {
 .member-level ul {
     list-style-type:none;
 }
+
+#thanks {
+    text-align: center;
+}
+
+
+
+/* CONTACT PAGE */
+
+.contact {
+    display:block;
+    padding-top:1em;
+}
+.contact input {
+    display:block;
+    font-size:1rem;
+    border:1px solid #999;
+    border-radius:4px;
+    padding:.75em;
+    color:#555;
+    max-width:20rem;
+    background-color:#F5F5F5;
+}
+.contact textarea {
+    display:block;
+}
+.map {
+    display:block;
+    margin:0 auto;
+    border:2px solid #505A5B;
+    box-shadow: 0px 0px 20px black;
+    width:300px;
+    height:225px;
+}
