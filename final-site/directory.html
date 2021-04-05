@@ -1,2 +1,53 @@
 <!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Springville Chamber of Commerce</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Springville, Utah chamber of commerce website home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="json/business.json"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Springille City</h1>
+        <img src="images/mtn-icon1.png" alt="mountain icon" class="icon">
+        <h1>Chamber of Commerce</h1>
+    </header>
+
+    <nav class="clearfix">
+        <button onClick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="city.html">Springville City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <h2>Chamber of Commerce Directory</h2>
+        <siv class="directory"></siv>
+    </main>
+
+    <footer>
+        <h4>Contact Us!</h4>
+        <p>(801) 555-555</p>
+        <p>55 N Main Street</p>
+        <p>customersupport@artcitycommerce.com</p>
+    </footer>
+</body>
+
+</html>
