@@ -5,49 +5,56 @@
             "phone":"(801) 489-8585",
             "site":"artcitytrolley.com",
             "address":"256 N Main St",
-            "logo":"trolley.png"
+            "logo":"trolley.png",
+            "desc":"Art City Trolley Logo"
         },
         {
             "name":"Hobble Creek Dental Care",
             "phone":"(801) 489-4541",
             "site":"https://www.hobblecreekdentalcare.com",
             "address":"143 E 200 S",
-            "logo":"dental.jpg"
+            "logo":"dental.jpg",
+            "desc":"Hobble Creek Dental Care Logo"
         },
         {
             "name":"Sodalicious",
             "phone":"(801) 995-3513",
             "site":"https://www.mysodalicious.com",
             "address":"901 W 400 S",
-            "logo":"sodalicious.png"
+            "logo":"sodalicious.png",
+            "desc":"Sodalicious Logo"
         },
         {
             "name":"Daylight Donuts",
             "phone":"(801) 515-6078",
             "site":"http://www.utahdonuts.com",
             "address":"1180 N Main St #2",
-            "logo":"donuts.jpg"
+            "logo":"donuts.jpg",
+            "desc":"Daylight Donuts Logo"
         },
         {
             "name":"Wiggy Wash Car Wash",
             "phone":"(801) 798-6170",
             "site":"http://www.wiggywash.com",
             "address":"11662 W 500 S",
-            "logo":"wiggy.png"
+            "logo":"wiggy.png",
+            "desc":"Wiggy Wash Logo"
         },
         {
             "name":"Ginger's Garden Cafe",
             "phone":"(801) 489-1863",
             "site":"http://www.gingersgardencafe.com",
             "address":"188 S Main St #1849",
-            "logo":"ginger.png"
+            "logo":"ginger.png",
+            "desc":"Ginger's Garden Cafe Logo"
         },
         {
             "name":"Lemon and Sage Market",
             "phone":"(801) 515-6074",
             "site":"https://lemonandsagemarket.com",
             "address":"151 S Main St",
-            "logo":"lemon.jpg"
+            "logo":"lemon.jpg",
+            "desc":"Lemon and Sage Logo"
         }
     ]
 }
