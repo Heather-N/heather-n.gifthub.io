@@ -146,6 +146,13 @@ th {
 .card1 h4, .card2 h4 {
     text-align:center;
 }
+.home-events {
+    margin:0 auto;
+    text-align:center;
+    background-color: #94B0DA;
+    padding:1em;
+    width:40em;
+}
 
 
 .clearfix:after {
