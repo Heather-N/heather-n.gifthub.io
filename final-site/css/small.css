@@ -300,12 +300,16 @@ span.red {
 
 /* DIRECTORY PAGE */
 
+.button {
+    display:none;
+}
 main div.directory {
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr;
     grid-gap:10px;
 }
 .directory section {
+    padding:1em 0;
     background-color:#94B0DA;
     text-align: center;
     border:2px solid #505A5B;

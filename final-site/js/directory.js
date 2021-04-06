@@ -24,8 +24,15 @@ fetch(requestURL)
         address.textContent = 'Address: ' + business[i].address;
         website.setAttribute('href', business[i].site);
         website.textContent = business[i].site;
-        image.setAttribute('src', business[i].logo);
+        image.setAttribute('src', 'images/' + business[i].logo);
         image.setAttribute('alt', business[i].desc);
+
+        card.setAttribute('class', 'cards');
+        image.setAttribute('class', 'pic');
+        h2.setAttribute('class', 'name');
+        phone.setAttribute('class', 'number');
+        address.setAttribute('class', 'locale');
+        web.setAttribute('class', 'webadd');
 
         //add to page
         web.appendChild(website);

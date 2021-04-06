@@ -29,4 +29,11 @@
         width:600px;
         height:450px;
     }
+
+
+    /* DIRECTORY PAGE */
+
+    main div.directory {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

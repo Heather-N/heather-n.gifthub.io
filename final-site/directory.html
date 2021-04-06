@@ -29,16 +29,18 @@
     <nav class="clearfix">
         <button onClick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="city.html">Springville City</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
     </nav>
 
     <main>
         <h2>Chamber of Commerce Directory</h2>
+        <button type="button" onclick="listView()" class="button">List View</button>
+        <button type="button" onclick="gridView()" class="button">Grid View</button>
         <div class="directory"></div>
     </main>
 

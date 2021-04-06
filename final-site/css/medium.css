@@ -20,4 +20,20 @@
         width:500px;
         height:375px;
     }
+
+
+    /* DIRECTORY PAGE */
+
+    .button {
+        display:inline;
+        margin:1em 0;
+        padding:.5em;
+        border:2px solid #505A5B;
+        background-color:#8F91A2;
+        color:#DCEDFF;
+        border-radius:10px;
+    }
+    main div.directory {
+        grid-template-columns: 1fr 1fr;
+    }
 }
